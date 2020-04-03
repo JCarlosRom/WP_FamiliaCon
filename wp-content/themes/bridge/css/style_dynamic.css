@@ -1,0 +1,491 @@
+
+				
+		
+		
+								
+					body{
+											font-family: 'Open Sans', sans-serif;
+															}
+											
+		
+		
+					.header_bottom,
+			.header_top,
+			.fixed_top_header .bottom_header{
+			background-color: rgba(255,255,255,1);
+			}
+
+			
+		
+																
+		
+
+
+		
+		
+			.header_top,
+			.fixed_top_header .top_header,
+			.fixed_top_header nav.mobile_menu{
+			background-color: rgba(255,255,255,1);
+			}
+						
+		
+		
+		
+
+														.content{
+					margin-top: -100px;
+					}
+				
+					
+								
+		
+		
+		
+						header.fixed_hiding .q_logo a,
+				header.fixed_hiding .q_logo{
+				max-height: 38px;
+				}
+				
+		
+		
+		
+				
+		
+		
+					nav.main_menu > ul > li > a{
+										font-family: '', sans-serif;
+																		 letter-spacing: px; 			 text-transform: ; 			}
+
+		
+		
+		
+		
+		
+
+		
+
+					.drop_down .second .inner > ul > li > a,
+			.drop_down .second .inner > ul > li > h3,
+			.drop_down .wide .second .inner > ul > li > h3,
+			.drop_down .wide .second .inner > ul > li > a,
+			.drop_down .wide .second ul li ul li.menu-item-has-children > a,
+			.drop_down .wide .second .inner ul li.sub ul li.menu-item-has-children > a,
+			.drop_down .wide .second .inner > ul li.sub .flexslider ul li  h5 a,
+			.drop_down .wide .second .inner > ul li .flexslider ul li  h5 a,
+			.drop_down .wide .second .inner > ul li.sub .flexslider ul li  h5,
+			.drop_down .wide .second .inner > ul li .flexslider ul li  h5,
+			.header_top #lang_sel ul li ul li a {
+										font-family: '', sans-serif !important;
+																					 letter-spacing: 0px;  			}
+																			.drop_down .wide .second .inner ul li.sub ul li a,
+			.drop_down .wide .second ul li ul li a,
+			.drop_down .second .inner ul li.sub ul li a,
+			.drop_down .wide .second ul li ul li a,
+			.drop_down .wide .second .inner ul li.sub .flexslider ul li .menu_recent_post,
+			.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post a,
+			.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post,
+			.drop_down .wide .second .inner ul li .flexslider ul li .menu_recent_post a{
+										font-family: '', sans-serif;
+																					 letter-spacing: 0px;  			}
+			.drop_down .wide.icons .second i{
+						}
+				
+
+					header.scrolled nav.main_menu > ul > li > a,
+			header.light.scrolled nav.main_menu > ul > li > a,
+			header.dark.scrolled nav.main_menu > ul > li > a{
+										font-family: '', sans-serif !important;
+																								}
+						
+					header.sticky nav.main_menu > ul > li > a,
+			header.light.sticky nav.main_menu > ul > li > a,
+			header.dark.sticky nav.main_menu > ul > li > a{
+										font-family: '', sans-serif !important;
+																								}
+		
+		
+		
+					nav.mobile_menu ul li a,
+			nav.mobile_menu ul li h3{
+										font-family: '', sans-serif;
+																								}
+
+		
+		
+				
+						
+		
+		
+		
+					h1,
+			.h1,
+			.title h1,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h1.elementor-heading-title{
+										font-family: '', sans-serif;
+																		letter-spacing: px; 						}
+							.title h1{
+										font-family: '', sans-serif;
+																					}
+		
+		
+											h2,
+			.h2,
+			h2 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h2.elementor-heading-title {
+										font-family: '', sans-serif;
+																		letter-spacing: px; 						}
+							h3,
+			.h3,
+			h3 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h3.elementor-heading-title {
+										font-family: '', sans-serif;
+																		letter-spacing: px; 						}
+							h4,
+			.h4,
+			h4 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h4.elementor-heading-title {
+										font-family: '', sans-serif;
+																		letter-spacing: px; 						}
+							h5,
+			.h5,
+			h5 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h5.elementor-heading-title,
+			.q_icon_with_title .icon_text_holder h5.icon_title{
+										font-family: '', sans-serif;
+																		letter-spacing: px; 						}
+							h6,
+			.h6,
+			h6 a,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading h6.elementor-heading-title {
+										font-family: '', sans-serif;
+																		letter-spacing: px; 						}
+
+		
+
+					p,
+            body.qode-overridden-elementors-fonts .elementor-widget-heading p.elementor-heading-title {
+										font-family: '', sans-serif;
+																								}
+			.filter_holder ul li span,
+			blockquote h5,
+			.q_social_icon_holder .simple_social,
+			.header-widget.widget_nav_menu ul.menu li a,
+			.side_menu a,
+			.side_menu li,
+			.side_menu span,
+			.side_menu p,
+			.side_menu .widget.widget_rss li a.rsswidget,
+			.side_menu #wp-calendar caption,
+			.side_menu #wp-calendar th,
+			.side_menu #wp-calendar td,
+			aside .widget #lang_sel_list li a,
+			aside .widget #lang_sel li a,
+			aside .widget #lang_sel_click li a,
+			.wpb_widgetised_column .widget #lang_sel_list li a,
+			.wpb_widgetised_column .widget #lang_sel li a,
+			.wpb_widgetised_column .widget #lang_sel_click li a,
+            .elementor-widget.elementor-widget-sidebar .widget #lang_sel_list li a,
+            .elementor-widget.elementor-widget-sidebar .widget #lang_sel li a,
+            .elementor-widget.elementor-widget-sidebar .widget #lang_sel_click li a,
+			section.side_menu #lang_sel_list li a,
+			section.side_menu #lang_sel li a,
+			section.side_menu #lang_sel_click li a,
+			footer #lang_sel_list li a,
+			footer #lang_sel li a,
+			footer #lang_sel_click li a,
+			footer #lang_sel_list.lang_sel_list_horizontal a,
+			footer #lang_sel_list.lang_sel_list_vertical a,
+			.side_menu #lang_sel_list.lang_sel_list_horizontal a,
+			.side_menu #lang_sel_list.lang_sel_list_vertical a,
+			#lang_sel_footer a{
+						}
+			.header_top #lang_sel > ul > li > a,
+			.header_top #lang_sel_click > ul > li> a,
+			footer #lang_sel ul li a,
+			footer #lang_sel ul ul a,
+			footer #lang_sel_click ul li a,
+			footer #lang_sel_click ul ul a,
+			footer #lang_sel_click ul ul a span,
+			section.side_menu #lang_sel ul li a,
+			section.side_menu #lang_sel ul ul a,
+			section.side_menu #lang_sel ul ul a:visited,
+			section.side_menu #lang_sel_click > ul > li > a,
+			section.side_menu #lang_sel_click ul ul a,
+			section.side_menu #lang_sel_click ul ul a:visited{
+						}
+									
+
+		
+				
+				
+		
+		
+
+		
+		
+		
+										
+		
+		
+		
+		
+		
+		
+		
+								
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+
+		
+		
+
+												
+										
+								
+								
+										
+										
+								
+								
+		
+														
+								
+								
+								
+				
+						
+						
+		/*Blog Masonry Gallery - end */
+
+								
+						
+						
+								
+												
+								
+
+		
+						
+				
+		
+
+		
+				
+
+										
+		
+
+												
+				
+				
+		
+								
+								
+								
+		
+																																																				
+				
+		
+		.vertical_menu_float .menu-item .second{
+		left: calc(100% + 30px); /*because of the padding*/
+		}
+
+		.vertical_menu_hidden aside.vertical_menu_area .vertical_menu_float .menu-item .second {
+		left: calc(100% + 40px);
+		}
+
+
+		
+		
+		
+		
+
+
+							.vertical_menu_area{
+			text-align:left;
+			}
+			
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+																																
+		
+		
+				
+		
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+		
+		
+				
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+
+		
+		
+
+		
+		
+		
+								
+		
+		
+				
+				
+				
+				
+										
+
+					.qbutton,
+			.qbutton.medium,
+			#submit_comment,
+			.load_more a,
+			.blog_load_more_button a,
+			.post-password-form input[type='submit'],
+			input.wpcf7-form-control.wpcf7-submit,
+			input.wpcf7-form-control.wpcf7-submit:not([disabled]),
+			.woocommerce table.cart td.actions input[type="submit"],
+			.woocommerce input#place_order,
+			.woocommerce-page input[type="submit"],
+			.woocommerce .button
+			{
+										font-family: '', sans-serif;
+			
+			
+																																										}
+
+			.qode-qbutton-main-color {
+							font-family: '', sans-serif;
+																											}
+
+		
+		
+											.qbutton.big_large,
+			.qbutton.big_large_full_width {
+
+																											
+			}
+										
+
+						
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+
+	
+						    .q_message .message_text{
+									    font-family: '', sans-serif;
+																	    }
+				
+		
+		
+
+				
+
+
