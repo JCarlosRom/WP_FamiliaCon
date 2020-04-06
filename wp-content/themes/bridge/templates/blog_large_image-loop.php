@@ -51,8 +51,8 @@ $bridge_qode_post_format = get_post_format();
 					<div class="post_text_inner">
 						<h2 itemprop="name" class="entry_title"><span itemprop="dateCreated" class="date entry_date updated"><?php the_time('d M'); ?><meta itemprop="interactionCount" content="UserComments: <?php echo get_comments_number(bridge_qode_get_page_id()); ?>"/></span> <a itemprop="url" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 						<div class="post_info">
-							<span class="time"><?php esc_html_e('Posted at','bridge'); ?> <?php the_time('H:i'); ?><?php esc_html_e('h','bridge'); ?></span>
-							<?php esc_html_e('in','bridge'); ?> <?php the_category(', '); ?>
+							<span class="time"><?php esc_html_e('Publicada a las','bridge'); ?> <?php the_time('H:i'); ?><?php esc_html_e('h','bridge'); ?></span>
+							<?php esc_html_e('en','bridge'); ; ?> <?php the_category(', '); ?>
                             <?php if($bridge_qode_blog_hide_author == "no") { ?>
                                 <span class="post_author">
                                     <?php esc_html_e('by','bridge'); ?>
@@ -96,8 +96,8 @@ $bridge_qode_post_format = get_post_format();
 					<div class="post_text_inner">
 						<h2 itemprop="name" class="entry_title"><span itemprop="dateCreated" class="date entry_date updated"><?php the_time('d M'); ?><meta itemprop="interactionCount" content="UserComments: <?php echo get_comments_number(bridge_qode_get_page_id()); ?>"/></span> <a itemprop="url" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 						<div class="post_info">
-							<span class="time"><?php esc_html_e('Posted at','bridge'); ?> <?php the_time('H:i'); ?><?php esc_html_e('h','bridge'); ?></span>
-							<?php esc_html_e('in','bridge'); ?> <?php the_category(', '); ?>
+							<span class="time"><?php esc_html_e('Publicada a las','bridge'); ?> <?php the_time('H:i'); ?><?php esc_html_e('h','bridge'); ?></span>
+							<?php esc_html_e('en','bridge'); ; ?> <?php the_category(', '); ?>
                             <?php if($bridge_qode_blog_hide_author == "no") { ?>
                                 <span class="post_author">
                                     <?php esc_html_e('by','bridge'); ?>
@@ -154,8 +154,8 @@ $bridge_qode_post_format = get_post_format();
 					<div class="post_text_inner">
 						<h2 itemprop="name" class="entry_title"><span itemprop="dateCreated" class="date entry_date updated"><?php the_time('d M'); ?><meta itemprop="interactionCount" content="UserComments: <?php echo get_comments_number(bridge_qode_get_page_id()); ?>"/></span> <a itemprop="url" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 						<div class="post_info">
-							<span class="time"><?php esc_html_e('Posted at','bridge'); ?> <?php the_time('H:i'); ?><?php esc_html_e('h','bridge'); ?></span>
-							<?php esc_html_e('in','bridge'); ?> <?php the_category(', '); ?>
+							<span class="time"><?php esc_html_e('Publicada a las','bridge'); ?> <?php the_time('H:i'); ?><?php esc_html_e('h','bridge'); ?></span>
+							<?php esc_html_e('en','bridge'); ; ?> <?php the_category(', '); ?>
                             <?php if($bridge_qode_blog_hide_author == "no") { ?>
                                 <span class="post_author">
                                     <?php esc_html_e('by','bridge'); ?>
@@ -193,8 +193,8 @@ $bridge_qode_post_format = get_post_format();
 				<div class="post_text">
 					<div class="post_text_inner">
 						<div class="post_info">
-							<span itemprop="dateCreated" class="time entry_date updated"><?php esc_html_e('Posted at','bridge'); ?> <?php the_time('d M, H:i'); ?><?php esc_html_e('h','bridge'); ?><meta itemprop="interactionCount" content="UserComments: <?php echo get_comments_number(bridge_qode_get_page_id()); ?>"/></span>
-							<?php esc_html_e('in','bridge'); ?> <?php the_category(', '); ?>
+							<span itemprop="dateCreated" class="time entry_date updated"><?php esc_html_e('Publicada a las','bridge'); ?> <?php the_time('d M, H:i'); ?><?php esc_html_e('h','bridge'); ?><meta itemprop="interactionCount" content="UserComments: <?php echo get_comments_number(bridge_qode_get_page_id()); ?>"/></span>
+							<?php esc_html_e('en','bridge'); ; ?> <?php the_category(', '); ?>
                             <?php if($bridge_qode_blog_hide_author == "no") { ?>
                                 <span class="post_author">
                                     <?php esc_html_e('by','bridge'); ?>
@@ -230,8 +230,8 @@ $bridge_qode_post_format = get_post_format();
 					<div class="post_text">
 						<div class="post_text_inner">
 							<div class="post_info">
-								<span itemprop="dateCreated" class="time entry_date updated"><?php esc_html_e('Posted at','bridge'); ?> <?php the_time('d M, H:i'); ?><?php esc_html_e('h','bridge'); ?><meta itemprop="interactionCount" content="UserComments: <?php echo get_comments_number(bridge_qode_get_page_id()); ?>"/></span>
-								<?php esc_html_e('in','bridge'); ?> <?php the_category(', '); ?>
+								<span itemprop="dateCreated" class="time entry_date updated"><?php esc_html_e('Publicada a las','bridge'); ?> <?php the_time('d M, H:i'); ?><?php esc_html_e('h','bridge'); ?><meta itemprop="interactionCount" content="UserComments: <?php echo get_comments_number(bridge_qode_get_page_id()); ?>"/></span>
+								<?php esc_html_e('en','bridge'); ; ?> <?php the_category(', '); ?>
                                 <?php if($bridge_qode_blog_hide_author == "no") { ?>
                                     <span class="post_author">
                                         <?php esc_html_e('by','bridge'); ?>
@@ -276,8 +276,8 @@ $bridge_qode_post_format = get_post_format();
 					<div class="post_text_inner">
 						<h2 itemprop="name" class="entry_title"><span itemprop="dateCreated" class="date entry_date updated"><?php the_time('d M'); ?><meta itemprop="interactionCount" content="UserComments: <?php echo get_comments_number(bridge_qode_get_page_id()); ?>"/></span> <a itemprop="url" href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 						<div class="post_info">
-							<span class="time"><?php esc_html_e('Posted at','bridge'); ?> <?php the_time('H:i'); ?><?php esc_html_e('h','bridge'); ?></span>
-							<?php esc_html_e('in','bridge'); ?> <?php the_category(', '); ?>
+							<span class="time"><?php esc_html_e('Publicada a las','bridge'); ?> <?php the_time('H:i'); ?><?php esc_html_e('h','bridge'); ?></span>
+							<?php esc_html_e('en','bridge'); ; ?> <?php the_category(', '); ?>
                             <?php if($bridge_qode_blog_hide_author == "no") { ?>
                                 <span class="post_author">
                                     <?php esc_html_e('by','bridge'); ?>

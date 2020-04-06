@@ -13784,7 +13784,7 @@ msgstr ""
 #: templates/blog_small_image-loop.php:199
 #: templates/blog_small_image-loop.php:245
 #: templates/blog_small_image-loop.php:291
-msgid "Posted at"
+msgid "Publicada a las"
 msgstr ""
 
 #: includes/comment/comment.php:33

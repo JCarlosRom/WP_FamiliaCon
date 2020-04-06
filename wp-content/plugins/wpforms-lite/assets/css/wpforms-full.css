@@ -110,6 +110,9 @@ div.wpforms-container-full .wpforms-form input.wpforms-field-medium,
 div.wpforms-container-full .wpforms-form select.wpforms-field-medium,
 div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
 	max-width: 60%;
+	border: none;
+	
+	
 }
 
 div.wpforms-container-full .wpforms-form textarea.wpforms-field-medium {
@@ -459,7 +462,6 @@ div.wpforms-container-full .wpforms-form textarea {
 	display: block;
 	float: none;
 	font-size: 16px;
-	border: 1px solid #ccc;
 	padding: 6px 10px;
 	height: 38px;
 	width: 100%;
@@ -490,11 +492,10 @@ div.wpforms-container-full .wpforms-form select {
 div.wpforms-container-full .wpforms-form input[type=submit],
 div.wpforms-container-full .wpforms-form button[type=submit],
 div.wpforms-container-full .wpforms-form .wpforms-page-button {
-	background-color: #eee;
-	border: 1px solid #ddd;
-	color: #333;
-	font-size: 1em;
-	padding: 10px 15px;
+	  height: 53px;
+  width: 217px;
+  background-color: #D73A4E;
+  color: white;
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-page-button {
@@ -638,8 +639,14 @@ div.wpforms-container-full .wpforms-form .wpforms-recaptcha-container iframe {
 ----------------------------------------------------------------------------- */
 
 div.wpforms-container-full .wpforms-form .wpforms-title {
-	font-size: 26px;
-	margin: 0 0 10px 0;
+  height: 29px;
+  width: 441px;
+  color: #2C2C2C;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 29px;
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-description {
