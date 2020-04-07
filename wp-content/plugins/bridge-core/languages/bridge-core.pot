@@ -6507,12 +6507,12 @@ msgstr ""
 
 #: modules/shortcodes/shortcode-elements/_blog-slider/elementor-blog-slider.php:410
 #: modules/shortcodes/shortcode-elements/_blog-slider/vc_map.php:295
-msgid "Show Read More Button"
+msgid "Show Leer más Button"
 msgstr ""
 
 #: modules/shortcodes/shortcode-elements/_blog-slider/elementor-blog-slider.php:427
 #: modules/shortcodes/shortcode-elements/_blog-slider/vc_map.php:307
-msgid "Read More Button Size"
+msgid "Leer más Button Size"
 msgstr ""
 
 #: modules/shortcodes/shortcode-elements/_blog-slider/elementor-blog-slider.php:444
@@ -6572,7 +6572,7 @@ msgid "Comments"
 msgstr ""
 
 #: modules/shortcodes/shortcode-elements/_blog-slider/templates/blog-slider.php:309
-msgid "Read More"
+msgid "Leer más"
 msgstr ""
 
 #: modules/shortcodes/shortcode-elements/_blog-slider/templates/blog-slider.php:324
@@ -7772,7 +7772,7 @@ msgstr ""
 
 #: modules/shortcodes/shortcode-elements/_cover-boxes/elementor-cover-boxes.php:261
 #: modules/shortcodes/shortcode-elements/_cover-boxes/vc_map.php:182
-msgid "Read More Button Style"
+msgid "Leer más Button Style"
 msgstr ""
 
 #: modules/shortcodes/shortcode-elements/_custom-font/elementor-custom-font.php:9

@@ -1025,7 +1025,7 @@ function wp_default_scripts( &$scripts ) {
 			'liClose'               => __( 'Close list item tag' ),
 			'code'                  => __( 'Code' ),
 			'codeClose'             => __( 'Close code tag' ),
-			'more'                  => __( 'Insert Read More tag' ),
+			'more'                  => __( 'Insert Leer más tag' ),
 		)
 	);
 

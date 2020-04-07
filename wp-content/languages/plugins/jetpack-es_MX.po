@@ -1568,7 +1568,7 @@ msgstr "Plan de pagos"
 
 #: _inc/blocks/editor-experimental.js:2 _inc/blocks/editor-beta.js:2
 #: _inc/blocks/editor.js:2
-msgid "Read more about Recurring Payments and related fees."
+msgid "Leer más about Recurring Payments and related fees."
 msgstr "Lee más sobre los pagos periódicos y cuotas relacionadas."
 
 #: modules/memberships/class-jetpack-memberships.php:141
@@ -3250,7 +3250,7 @@ msgstr "Debes especificar tanto el tipo de objeto como el id a obtener"
 
 #. translators: the placeholder is a URL
 #: class.jetpack-cli.php:2003
-msgid "Read more at %7$s"
+msgid "Leer más at %7$s"
 msgstr "Lee más en %7$s"
 
 #. translators: the placeholder is a file path
@@ -8889,7 +8889,7 @@ msgid "Jetpack has been placed into Safe Mode. Learn more about <a href=\"%1$s\"
 msgstr "Jetpack se ha puesto en Modo a prueba de fallos. Aprende más sobre el <a href=\"%1$s\">modo a prueba de fallos</a>."
 
 #: class.jetpack-idc.php:664
-msgid "Unsure what to do? <a href=\"%1$s\">Read more about Jetpack Safe Mode</a>"
+msgid "Unsure what to do? <a href=\"%1$s\">Leer más about Jetpack Safe Mode</a>"
 msgstr "¿No sabes qué hacer? <a href=\"%1$s\">Lee más sobre el modo a prueba de fallos de Jetpack</a>"
 
 #: class.jetpack-idc.php:610

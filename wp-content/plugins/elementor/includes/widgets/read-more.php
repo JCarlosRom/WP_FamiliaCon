@@ -16,7 +16,7 @@ class Widget_Read_More extends Widget_Base {
 	/**
 	 * Get widget name.
 	 *
-	 * Retrieve Read More widget name.
+	 * Retrieve Leer más widget name.
 	 *
 	 * @since 2.4.0
 	 * @access public
@@ -30,7 +30,7 @@ class Widget_Read_More extends Widget_Base {
 	/**
 	 * Get widget title.
 	 *
-	 * Retrieve Read More widget title.
+	 * Retrieve Leer más widget title.
 	 *
 	 * @since 2.4.0
 	 * @access public
@@ -38,13 +38,13 @@ class Widget_Read_More extends Widget_Base {
 	 * @return string Widget title.
 	 */
 	public function get_title() {
-		return __( 'Read More', 'elementor' );
+		return __( 'Leer más', 'elementor' );
 	}
 
 	/**
 	 * Get widget icon.
 	 *
-	 * Retrieve Read More widget icon.
+	 * Retrieve Leer más widget icon.
 	 *
 	 * @since 2.4.0
 	 * @access public
@@ -80,7 +80,7 @@ class Widget_Read_More extends Widget_Base {
 		$this->start_controls_section(
 			'section_title',
 			[
-				'label' => __( 'Read More', 'elementor' ),
+				'label' => __( 'Leer más', 'elementor' ),
 			]
 		);
 
@@ -98,7 +98,7 @@ class Widget_Read_More extends Widget_Base {
 		$this->add_control(
 			'link_text',
 			[
-				'label' => __( 'Read More Text', 'elementor' ),
+				'label' => __( 'Leer más Text', 'elementor' ),
 				'placeholder' => $default_link_text,
 				'default' => $default_link_text,
 			]
@@ -108,7 +108,7 @@ class Widget_Read_More extends Widget_Base {
 	}
 
 	/**
-	 * Render Read More widget output on the frontend.
+	 * Render Leer más widget output on the frontend.
 	 *
 	 * Written in PHP and used to generate the final HTML.
 	 *
@@ -119,7 +119,7 @@ class Widget_Read_More extends Widget_Base {
 	}
 
 	/**
-	 * Render Read More widget output in the editor.
+	 * Render Leer más widget output in the editor.
 	 *
 	 * Written as a Backbone JavaScript template and used to generate the live preview.
 	 *

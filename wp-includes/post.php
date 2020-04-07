@@ -702,12 +702,12 @@ function get_children( $args = '', $output = OBJECT ) {
  *
  * The returned array has 'main', 'extended', and 'more_text' keys. Main has the text before
  * the `<!--more-->`. The 'extended' key has the content after the
- * `<!--more-->` comment. The 'more_text' key has the custom "Read More" text.
+ * `<!--more-->` comment. The 'more_text' key has the custom "Leer más" text.
  *
  * @since 1.0.0
  *
  * @param string $post Post content.
- * @return array Post before ('main'), after ('extended'), and custom read more ('more_text').
+ * @return array Post before ('main'), after ('extended'), and custom Leer más ('more_text').
  */
 function get_extended( $post ) {
 	//Match the new style more links.

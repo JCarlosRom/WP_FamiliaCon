@@ -91,7 +91,7 @@ We packed 30 of the most useful widgets into our page builder. True, that's way 
 - **HTML**. Insert code into the page.
 - **Shortcode**. Easily insert shortcodes from any plugin into the page.
 - **Menu Anchor**. Link any menu to this anchor.
-- **Read More**. Set the `Read More` cut-off for the excerpt in archive pages.
+- **Leer más**. Set the `Leer más` cut-off for the excerpt in archive pages.
 - **Sidebar**. Add any sidebar into the page.
 - **Google Maps**. Embed maps into the page.
 - **SoundCloud**. Add audio bits from SoundCloud.
@@ -203,7 +203,7 @@ Absolutely not! Elementor is a live frontend page builder, that lets you reach a
 
 **Will Elementor work with RTL or other languages?**
 
-Yeah! Elementor enables to seamlessly build RTL pages as well as other translated pages in any language. You can read more about [translation and localization](https://go.elementor.com/translate/).
+Yeah! Elementor enables to seamlessly build RTL pages as well as other translated pages in any language. You can Leer más about [translation and localization](https://go.elementor.com/translate/).
 
 **My site is working with WordPress 2.6, will Elementor work for me?**
 
@@ -795,7 +795,7 @@ No. Elementor supports WordPress 5.0 or greater, and is compatible with PHP 5.6 
 = 2.4.0 - 2019-01-14 =
 * New: Added Safe Mode for scenarios that the editor didn't load properly
 * New: Added `<!--more-->` tag support ([#462](https://github.com/elementor/elementor/issues/462))
-* New: Added Read More widget aka `<!--more-->` tag
+* New: Added Leer más widget aka `<!--more-->` tag
 * New: Added Categories taxonomy for Template Library ([#886](https://github.com/elementor/elementor/issues/886))
 * New: Added responsive capabilities for Background control ([#2355](https://github.com/elementor/elementor/issues/2355))
 * New: Added custom option for `background-size` & `background-position` ([#2571](https://github.com/elementor/elementor/issues/2571))
@@ -1569,7 +1569,7 @@ No. Elementor supports WordPress 5.0 or greater, and is compatible with PHP 5.6 
 * Fix: Reset border for iFrame in video lightbox ([#2121](https://github.com/elementor/elementor/issues/2121))
 
 = 1.6.0 - 2017-08-02 =
-* [Read more in the release post](https://elementor.com/v160-image-lightbox/)
+* [Leer más in the release post](https://elementor.com/v160-image-lightbox/)
 * New: Added native Lightbox for images and galleries ([#218](https://github.com/elementor/elementor/issues/218))
 * New: Added Text Shadow control ([#1696](https://github.com/elementor/elementor/issues/1696)) ([Developer API](https://github.com/elementor/elementor/blob/master/docs/content/controls/_text-shadow.md))
 * New: Added Text Shadow option for Heading widget ([#1940](https://github.com/elementor/elementor/issues/1940))

@@ -30,7 +30,7 @@
 
 if (version_compare(phpversion(), '5.6', '<')) {
     add_action('admin_notices', function () {
-        echo '<div class="notice notice-error"><p>PHP version 5.6 or greater is required for Newsletter. Ask your provider to upgrade. <a href="https://www.php.net/supported-versions.php" target="_blank">Read more on PHP versions</a></p></div>';
+        echo '<div class="notice notice-error"><p>PHP version 5.6 or greater is required for Newsletter. Ask your provider to upgrade. <a href="https://www.php.net/supported-versions.php" target="_blank">Leer más on PHP versions</a></p></div>';
     });
     return;
 }

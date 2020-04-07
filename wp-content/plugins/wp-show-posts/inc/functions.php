@@ -15,7 +15,7 @@ function wpsp_excerpt_length() {
 }
 
 /**
- * Set the read more ellipses.
+ * Set the Leer más ellipses.
  *
  * @since 1.1
  */

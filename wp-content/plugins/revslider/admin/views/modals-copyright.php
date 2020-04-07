@@ -170,7 +170,7 @@ $registered_p_c_url = ($rs_f->get_addition('selling') === true) ? 'https://slide
 							<div class="crm_title"><?php _e('Terms of using SVG Objects from the Library');?></div>
 							<div class="crm_content"><div class="crm_arrow material-icons">arrow_forward</div><div class="crm_text"><?php _e('Usage only allowed within Slider Revolution Plugin');?></div></div>
 							<div class="crm_content"><div class="crm_arrow material-icons">arrow_forward</div><div class="crm_text"><?php _e('A variety of sizes and densities can be also downloaded from the ');?> <a target="_blank" href="https://github.com/google/material-design-icons"><?php _e('git repository');?></a> <?php _e(', making it even easier for developers to customize, share, and re-use outside of Slider Revolution.');?></div></div>							
-							<div class="crm_content"><div class="crm_arrow material-icons">arrow_forward</div><div class="crm_text"><?php _e('Licenses via Apache License. Read More at');?> <a target="_blank" href="https://github.com/google/material-design-icons/blob/master/LICENSE"><?php _e('Google Material Design Icons');?></a></div></div>
+							<div class="crm_content"><div class="crm_arrow material-icons">arrow_forward</div><div class="crm_text"><?php _e('Licenses via Apache License. Leer más at');?> <a target="_blank" href="https://github.com/google/material-design-icons/blob/master/LICENSE"><?php _e('Google Material Design Icons');?></a></div></div>
 						</div>
 						<div class="crm_content_wrap" id="crm_icon">
 							<div class="crm_title"><?php _e('Terms of using ICON Objects from the Library');?></div>

@@ -1200,7 +1200,7 @@ if(!function_exists('bridge_qode_excerpt')) {
 	* Function that cuts post excerpt to the number of word based on previosly set global
 	* variable $word_count, which is defined in qode_set_blog_word_count function.
 	 *
-	 * It current post has read more tag set it will return content of the post, else it will return post excerpt
+	 * It current post has Leer más tag set it will return content of the post, else it will return post excerpt
 	 *
 	 * @changed in 4.3 version
 	*/
@@ -1210,7 +1210,7 @@ if(!function_exists('bridge_qode_excerpt')) {
         if ( post_password_required() ) {
             echo get_the_password_form();
         } else {
-            //does current post has read more tag set?
+            //does current post has Leer más tag set?
             if (bridge_qode_post_has_read_more()) {
                 global $more;
 
@@ -2368,8 +2368,8 @@ if(!function_exists('bridge_qode_timetable_schedule_installed')) {
 
 if(!function_exists('bridge_qode_post_has_read_more')) {
 	/**
-	 * Function that checks if current post has read more tag set
-	 * @return int position of read more tag text. It will return false if read more tag isn't set
+	 * Function that checks if current post has Leer más tag set
+	 * @return int position of Leer más tag text. It will return false if Leer más tag isn't set
 	 */
 	function bridge_qode_post_has_read_more() {
 		global $post;

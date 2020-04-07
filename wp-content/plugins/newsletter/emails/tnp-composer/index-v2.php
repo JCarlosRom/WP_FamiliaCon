@@ -114,7 +114,7 @@ $fields = new NewsletterFields($controls);
             <button class="button-secondary" onclick="tnpc_test()"><?php _e("Send a test", 'newsletter') ?></button>
             <p>
                 <a href="https://www.thenewsletterplugin.com/documentation/subscribers#test" target="_blank">
-                    <?php _e('Read more about test subscribers', 'newsletter') ?></a>
+                    <?php _e('Leer más about test subscribers', 'newsletter') ?></a>
             </p>
         </div>
 

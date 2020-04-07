@@ -44,7 +44,7 @@ $rules = array(0 => __('Optional', 'newsletter'), 1 => __('Required', 'newslette
         <p>
             This panel contains the configuration of the subscription and profile editing forms which collect the subscriber data you want to have.<br>
             And let you to <strong>translate</strong> every single button and label.<br>
-            <strong>Preferences</strong> can be an important setting for your newsletter: <a href="https://www.thenewsletterplugin.com/plugins/newsletter/newsletter-preferences" target="_blank">here you can read more about them</a>.
+            <strong>Preferences</strong> can be an important setting for your newsletter: <a href="https://www.thenewsletterplugin.com/plugins/newsletter/newsletter-preferences" target="_blank">here you can Leer más about them</a>.
         </p>
 
     </div>

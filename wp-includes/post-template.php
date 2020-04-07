@@ -355,12 +355,12 @@ function get_the_content( $more_link_text = null, $strip_teaser = false, $post =
 			if ( ! empty( $more_link_text ) ) {
 
 				/**
-				 * Filters the Read More link text.
+				 * Filters the Leer más link text.
 				 *
 				 * @since 2.8.0
 				 *
-				 * @param string $more_link_element Read More link element.
-				 * @param string $more_link_text    Read More text.
+				 * @param string $more_link_element Leer más link element.
+				 * @param string $more_link_text    Leer más text.
 				 */
 				$output .= apply_filters( 'the_content_more_link', ' <a href="' . get_permalink( $_post ) . "#more-{$_post->ID}\" class=\"more-link\">$more_link_text</a>", $more_link_text );
 			}

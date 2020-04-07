@@ -294,7 +294,7 @@ class Module extends \Elementor\Core\Base\Module {
 				$mu_plugins = wp_get_mu_plugins();
 
 				if ( 1 < count( $mu_plugins ) ) : ?>
-					<div class="elementor-safe-mode-mu-plugins"><?php printf( __( 'Please note! We couldn\'t deactivate all of your plugins on Safe Mode. Please <a href="%s" target="_blank">read more</a> about this issue.', 'elementor' ), self::DOCS_MU_PLUGINS_URL ); ?></div>
+					<div class="elementor-safe-mode-mu-plugins"><?php printf( __( 'Please note! We couldn\'t deactivate all of your plugins on Safe Mode. Please <a href="%s" target="_blank">Leer más</a> about this issue.', 'elementor' ), self::DOCS_MU_PLUGINS_URL ); ?></div>
 				<?php endif; ?>
 			</div>
 		</div>

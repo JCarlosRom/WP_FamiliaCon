@@ -1282,9 +1282,9 @@ final class _WP_Editors {
 
 				// WordPress strings
 				'Toolbar Toggle'                       => array( __( 'Toolbar Toggle' ), 'accessZ' ),
-				'Insert Read More tag'                 => array( __( 'Insert Read More tag' ), 'accessT' ),
+				'Insert Leer más tag'                 => array( __( 'Insert Leer más tag' ), 'accessT' ),
 				'Insert Page Break tag'                => array( __( 'Insert Page Break tag' ), 'accessP' ),
-				'Read more...'                         => __( 'Read more...' ), // Title on the placeholder inside the editor (no ellipsis)
+				'Leer más...'                         => __( 'Leer más...' ), // Title on the placeholder inside the editor (no ellipsis)
 				'Distraction-free writing mode'        => array( __( 'Distraction-free writing mode' ), 'accessW' ),
 				'No alignment'                         => __( 'No alignment' ), // Tooltip for the 'alignnone' button in the image toolbar
 				'Remove'                               => __( 'Remove' ), // Tooltip for the 'remove' button in the image toolbar

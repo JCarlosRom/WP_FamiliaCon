@@ -2465,7 +2465,7 @@ var Consumer = Context.Consumer,
  * A custom react Context consumer exposing the provided `registry` to
  * children components. Used along with the RegistryProvider.
  *
- * You can read more about the react context api here:
+ * You can Leer más about the react context api here:
  * https://reactjs.org/docs/context.html#contextprovider
  *
  * @example

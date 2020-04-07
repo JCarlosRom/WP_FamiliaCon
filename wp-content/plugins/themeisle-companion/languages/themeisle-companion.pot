@@ -633,7 +633,7 @@ msgid "Show post content"
 msgstr ""
 
 #: obfx_modules/beaver-widgets/modules/post-grid/post-grid.php:262
-msgid "Show read more"
+msgid "Show Leer más"
 msgstr ""
 
 #: obfx_modules/beaver-widgets/modules/post-grid/post-grid.php:267
@@ -641,11 +641,11 @@ msgid "Number of words"
 msgstr ""
 
 #: obfx_modules/beaver-widgets/modules/post-grid/post-grid.php:273
-msgid "Read more text"
+msgid "Leer más text"
 msgstr ""
 
 #: obfx_modules/beaver-widgets/modules/post-grid/post-grid.php:274
-msgid "Read more"
+msgid "Leer más"
 msgstr ""
 
 #: obfx_modules/beaver-widgets/modules/post-grid/post-grid.php:284

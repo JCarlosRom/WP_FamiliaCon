@@ -890,7 +890,7 @@ msgid "Order By"
 msgstr "Ordenar Por"
 
 #: includes/widgets/read-more.php:101
-msgid "Read More Text"
+msgid "Leer más Text"
 msgstr "Texto Leer Más"
 
 #: includes/widgets/read-more.php:93
@@ -902,7 +902,7 @@ msgid "Continue reading"
 msgstr "Continuar leyendo"
 
 #: includes/widgets/read-more.php:41 includes/widgets/read-more.php:83
-msgid "Read More"
+msgid "Leer más"
 msgstr "Leer más"
 
 #: includes/widgets/google-maps.php:111
@@ -998,7 +998,7 @@ msgid "Can't Edit?"
 msgstr "¿No puedes editar?"
 
 #: modules/safe-mode/module.php:297
-msgid "Please note! We couldn't deactivate all of your plugins on Safe Mode. Please <a href=\"%s\" target=\"_blank\">read more</a> about this issue."
+msgid "Please note! We couldn't deactivate all of your plugins on Safe Mode. Please <a href=\"%s\" target=\"_blank\">Leer más</a> about this issue."
 msgstr "¡Tenga en cuenta! No pudimos desactivar todos sus complementos en Modo Seguro. <a href=\"%s\" target=\"_blank\"> lea más </a> sobre este problema."
 
 #: modules/safe-mode/module.php:286 modules/safe-mode/module.php:290

@@ -1075,7 +1075,7 @@ msgid "Number of words in excerpt:"
 msgstr "Zobrazenie ukážky"
 
 #: admin/tab-options.php:153
-msgid "Custom read more link (optional):"
+msgid "Custom Leer más link (optional):"
 msgstr ""
 
 #: admin/tab-options.php:167

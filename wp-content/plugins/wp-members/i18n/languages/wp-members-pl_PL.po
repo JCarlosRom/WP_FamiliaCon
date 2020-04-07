@@ -1078,7 +1078,7 @@ msgid "Number of words in excerpt:"
 msgstr "Pokaż fragmenty"
 
 #: admin/tab-options.php:153
-msgid "Custom read more link (optional):"
+msgid "Custom Leer más link (optional):"
 msgstr ""
 
 #: admin/tab-options.php:167

@@ -174,7 +174,7 @@ if ( version_compare( phpversion(), '5.5', '<' ) ) {
 					printf(
 						wp_kses(
 							/* translators: %1$s - WPForms.com URL for documentation with more details. */
-							__( '<strong>Note:</strong> WPForms plugin is disabled on your site until you fix the issue. <a href="%1$s" target="_blank" rel="noopener noreferrer">Read more for additional information.</a>', 'wpforms-lite' ),
+							__( '<strong>Note:</strong> WPForms plugin is disabled on your site until you fix the issue. <a href="%1$s" target="_blank" rel="noopener noreferrer">Leer más for additional information.</a>', 'wpforms-lite' ),
 							array(
 								'a'      => array(
 									'href'   => array(),

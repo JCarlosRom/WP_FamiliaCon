@@ -9848,7 +9848,7 @@ msgstr[1] "%s <span class=\"screen-reader-text\">Comentarios</span>"
 #: wp-includes/blocks/latest-posts.php:70
 #: wp-includes/js/dist/block-library.js:14018
 #: wp-includes/js/dist/block-library.js:14709
-msgid "Read more"
+msgid "Leer más"
 msgstr "Leer Mas"
 
 #: wp-includes/js/dist/block-library.js:2974
@@ -11281,7 +11281,7 @@ msgid "Search or use up and down arrow keys to select an item."
 msgstr "Busca o utiliza las teclas de flecha arriba y abajo para seleccionar un elemento."
 
 #: wp-includes/class-wp-editor.php:1287
-msgid "Read more..."
+msgid "Leer más..."
 msgstr "Leer más..."
 
 #: wp-includes/class-wp-editor.php:1272
@@ -11910,7 +11910,7 @@ msgid "Image Details"
 msgstr "Detalles de la imagen"
 
 #: wp-includes/script-loader.php:1028 wp-includes/class-wp-editor.php:1285
-msgid "Insert Read More tag"
+msgid "Insert Leer más tag"
 msgstr "Insertar la etiqueta «Leer más»"
 
 #: wp-includes/js/dist/edit-post.js:924

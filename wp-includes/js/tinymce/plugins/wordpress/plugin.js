@@ -110,7 +110,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 
 		if ( event.content ) {
 			if ( event.content.indexOf( '<!--more' ) !== -1 ) {
-				title = __( 'Read more...' );
+				title = __( 'Leer más...' );
 
 				event.content = event.content.replace( /<!--more(.*?)-->/g, function( match, moretext ) {
 					return '<img src="' + tinymce.Env.transparentSrc + '" data-wp-more="more" data-wp-more-text="' + moretext + '" ' +
@@ -210,7 +210,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 
 		tag = tag || 'more';
 		classname += ' mce-wp-' + tag;
-		title = tag === 'more' ? 'Read more...' : 'Next page';
+		title = tag === 'more' ? 'Leer más...' : 'Next page';
 		title = __( title );
 		html = '<img src="' + tinymce.Env.transparentSrc + '" alt="" title="' + title + '" class="' + classname + '" ' +
 			'data-wp-more="' + tag + '" data-mce-resize="false" data-mce-placeholder="1" />';
@@ -415,7 +415,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 
 	// Register buttons
 	editor.addButton( 'wp_more', {
-		tooltip: 'Insert Read More tag',
+		tooltip: 'Insert Leer más tag',
 		onclick: function() {
 			editor.execCommand( 'WP_More', 'more' );
 		}
@@ -455,9 +455,9 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 		});
 	}
 
-	// Insert "Read More..."
+	// Insert "Leer más..."
 	editor.addMenuItem( 'wp_more', {
-		text: 'Insert Read More tag',
+		text: 'Insert Leer más tag',
 		icon: 'wp_more',
 		context: 'insert',
 		onclick: function() {

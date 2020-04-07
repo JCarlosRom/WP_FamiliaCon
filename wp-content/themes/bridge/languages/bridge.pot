@@ -14738,7 +14738,7 @@ msgstr ""
 #: templates/blog_small_image-loop.php:123
 #: templates/blog_small_image-loop.php:222
 #: templates/blog_small_image-loop.php:314
-msgid "Read More"
+msgid "Leer más"
 msgstr ""
 
 #: templates/blog_single-loop.php:271

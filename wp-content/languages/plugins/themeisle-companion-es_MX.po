@@ -552,7 +552,7 @@ msgid "Text alignment"
 msgstr "Alineación de texto"
 
 #: obfx_modules/beaver-widgets/modules/post-grid/post-grid.php:273
-msgid "Read more text"
+msgid "Leer más text"
 msgstr "Texto \"leer más\""
 
 #: obfx_modules/beaver-widgets/modules/post-grid/post-grid.php:267
@@ -560,7 +560,7 @@ msgid "Number of words"
 msgstr "Número de palabras"
 
 #: obfx_modules/beaver-widgets/modules/post-grid/post-grid.php:262
-msgid "Show read more"
+msgid "Show Leer más"
 msgstr "Mostrar \"leer más\""
 
 #: obfx_modules/beaver-widgets/modules/post-grid/post-grid.php:257
@@ -1073,7 +1073,7 @@ msgid "Left"
 msgstr "Izquierda"
 
 #: obfx_modules/beaver-widgets/modules/post-grid/post-grid.php:274
-msgid "Read more"
+msgid "Leer más"
 msgstr "Leer más"
 
 #: obfx_modules/beaver-widgets/modules/pricing-table/pricing-table.php:161

@@ -48,8 +48,8 @@ Here are the features in the free version:
 * Content type (excerpt or full post)
 * Excerpt length
 * Include title
-* Read more text
-* Read more button class
+* Leer más text
+* Leer más button class
 
 = Meta =
 
@@ -105,8 +105,8 @@ https://vimeo.com/175660953
 
 = Content =
 
-* Read more style
-* Read more color
+* Leer más style
+* Leer más color
 * Content link color
 * Content link color hover
 * Content text color
@@ -196,7 +196,7 @@ In most cases, #1 will work fine and is way easier.
 * Tweak: Pass list settings through hooks instead of using global
 * Tweak: Clean up code considerably
 * Tweak: Use the_excerpt() instead of custom function
-* Tweak: Remove border radius from read more buttons
+* Tweak: Remove border radius from Leer más buttons
 * Fix: Broken author setting
 * Fix: Remove image float on mobile
 * Fix: Missing color labels in WP 4.9
@@ -243,7 +243,7 @@ In most cases, #1 will work fine and is way easier.
 * Tweak: Pass list settings through hooks instead of using global
 * Tweak: Clean up code considerably
 * Tweak: Use the_excerpt() instead of custom function
-* Tweak: Remove border radius from read more buttons
+* Tweak: Remove border radius from Leer más buttons
 * Fix: Broken author setting
 * Fix: Remove image float on mobile
 * Fix: Missing color labels in WP 4.9

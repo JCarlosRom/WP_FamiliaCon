@@ -217,7 +217,7 @@ if ($controls->is_action('bounces')) {
                                 <?php $controls->button_confirm('remove_unconfirmed', __('Delete all not confirmed', 'newsletter'), __('Are you sure you want to delete ALL not confirmed subscribers?', 'newsletter')); ?>
                                 <?php $controls->button_confirm('confirm_all', __('Confirm all', 'newsletter'), __('Are you sure you want to mark ALL subscribers as confirmed?', 'newsletter')); ?>
                                 <p class="description">
-                                    <a href="https://www.thenewsletterplugin.com/plugins/newsletter/subscribers-module#resend-activation" target="_blank"><?php _e('We have some tips about global actions, read more.', 'newsletter') ?></a>
+                                    <a href="https://www.thenewsletterplugin.com/plugins/newsletter/subscribers-module#resend-activation" target="_blank"><?php _e('We have some tips about global actions, Leer más.', 'newsletter') ?></a>
                                 </p>
                             </td>
                         </tr>

@@ -2259,7 +2259,7 @@ monthly (as opposed to annually) wouldn’t be able to enable SEO Tools.
 * Photon now uses HTTPS by default. Secure all the things!
 * There are now helpful hints throughout the admin interface to make Jetpack easier to use.
 * We now allow you to embed pins, boards and profiles from Pinterest.
-* We've added a new feature: SEO Tools, available to Jetpack Professional subscribers. You can read more about our plans here: https://jetpack.com/features/
+* We've added a new feature: SEO Tools, available to Jetpack Professional subscribers. You can Leer más about our plans here: https://jetpack.com/features/
 * We've made numerous improvements to the data sync process.
 
 **Bug Fixes:**
@@ -2934,7 +2934,7 @@ Release date: November 4th, 2015
 Release post: http://wp.me/p1moTy-1VN
 
 We're happy to introduce Jetpack 3.8, which has significant contributions from
-the Jetpack community. Read more about it here: http://wp.me/p1moTy-1VN
+the Jetpack community. Leer más about it here: http://wp.me/p1moTy-1VN
 
 Feature enhancements:
 

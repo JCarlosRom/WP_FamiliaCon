@@ -374,7 +374,7 @@ function wpforms_check_php_version() {
 		sprintf(
 			wp_kses(
 				/* translators: %1$s - WPForms plugin name; %2$s - WPForms.com URL to a related doc. */
-				__( 'Your site is running an outdated version of PHP that is no longer supported and may cause issues with %1$s. <a href="%2$s" target="_blank" rel="noopener noreferrer">Read more</a> for additional information.', 'wpforms-lite' ),
+				__( 'Your site is running an outdated version of PHP that is no longer supported and may cause issues with %1$s. <a href="%2$s" target="_blank" rel="noopener noreferrer">Leer más</a> for additional information.', 'wpforms-lite' ),
 				array(
 					'a' => array(
 						'href'   => array(),

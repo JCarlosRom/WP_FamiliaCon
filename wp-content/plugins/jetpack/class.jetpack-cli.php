@@ -2003,7 +2003,7 @@ class Jetpack_CLI extends WP_CLI_Command {
 					esc_html__( 'The block slug has been added to the %4$s list at %5$s', 'jetpack' ) . "\n" .
 					'%6$s' . "\n" .
 					/* translators: the placeholder is a URL */
-					"\n" . esc_html__( 'Read more at %7$s', 'jetpack' ) . "\n",
+					"\n" . esc_html__( 'Leer más at %7$s', 'jetpack' ) . "\n",
 					$title,
 					$slug,
 					$path,

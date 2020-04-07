@@ -267,7 +267,7 @@ msgid "Title on bottom"
 msgstr ""
 
 #: extendvc/extend-vc.php:1881
-msgid "Read More Button Size"
+msgid "Leer más Button Size"
 msgstr ""
 
 #: extendvc/extend-vc.php:1884
@@ -5832,7 +5832,7 @@ msgstr "Geen reactie"
 #: templates/blog_small_image-loop.php:120
 #: templates/blog_small_image-loop.php:217
 #: templates/blog_small_image-loop.php:307
-msgid "Read More"
+msgid "Leer más"
 msgstr "Lees meer"
 
 # @ qode

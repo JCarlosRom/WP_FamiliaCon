@@ -14015,7 +14015,7 @@ function (_Component) {
           className: "wp-block-latest-posts__post-excerpt"
         }, Object(external_this_wp_element_["createElement"])(external_this_wp_element_["RawHTML"], {
           key: "html"
-        }, excerptLength < excerpt.trim().split(' ').length ? excerpt.trim().split(' ', excerptLength).join(' ') + ' ... <a href=' + post.link + 'target="_blank" rel="noopener noreferrer">' + Object(external_this_wp_i18n_["__"])('Read more') + '</a>' : excerpt.trim().split(' ', excerptLength).join(' '))), displayPostContent && displayPostContentRadio === 'full_post' && Object(external_this_wp_element_["createElement"])("div", {
+        }, excerptLength < excerpt.trim().split(' ').length ? excerpt.trim().split(' ', excerptLength).join(' ') + ' ... <a href=' + post.link + 'target="_blank" rel="noopener noreferrer">' + Object(external_this_wp_i18n_["__"])('Leer más') + '</a>' : excerpt.trim().split(' ', excerptLength).join(' '))), displayPostContent && displayPostContentRadio === 'full_post' && Object(external_this_wp_element_["createElement"])("div", {
           className: "wp-block-latest-posts__post-full-content"
         }, Object(external_this_wp_element_["createElement"])(external_this_wp_element_["RawHTML"], {
           key: "html"
@@ -14706,7 +14706,7 @@ function (_Component) {
     _this.onChangeInput = _this.onChangeInput.bind(Object(assertThisInitialized["a" /* default */])(_this));
     _this.onKeyDown = _this.onKeyDown.bind(Object(assertThisInitialized["a" /* default */])(_this));
     _this.state = {
-      defaultText: Object(external_this_wp_i18n_["__"])('Read more')
+      defaultText: Object(external_this_wp_i18n_["__"])('Leer más')
     };
     return _this;
   }

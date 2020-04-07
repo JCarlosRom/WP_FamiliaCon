@@ -432,7 +432,7 @@ class NewsletterControls {
         // Do not escape that, it can be formatted
         echo $text;
         if (!empty($url)) {
-            echo ' <a href="' . esc_attr($url) . '" target="_blank">Read more</a>.';
+            echo ' <a href="' . esc_attr($url) . '" target="_blank">Leer más</a>.';
         }
         echo '</div>';
     }
@@ -1155,7 +1155,7 @@ class NewsletterControls {
         }
         echo '<div style="clear: both"></div>';
         echo '<a href="https://www.thenewsletterplugin.com/documentation/newsletter-lists" target="_blank">'
-        . 'Click here to read more about lists.'
+        . 'Click here to Leer más about lists.'
         . '</a>';
         echo '</div>';
     }
@@ -1585,7 +1585,7 @@ class NewsletterControls {
     function language($name = 'language', $empty_label = 'All') {
         if (!class_exists('SitePress') && !function_exists('pll_default_language') && !class_exists('TRP_Translate_Press')) {
             echo __('Install a multilanguage plugin.', 'newsletter');
-            echo ' <a href="https://www.thenewsletterplugin.com/documentation/multilanguage" target="_blank">', __('Read more', 'newsletter'), '</a>';
+            echo ' <a href="https://www.thenewsletterplugin.com/documentation/multilanguage" target="_blank">', __('Leer más', 'newsletter'), '</a>';
             return;
         }
 
@@ -1681,7 +1681,7 @@ class NewsletterControls {
     }
 
     static function field_help($url, $text = '') {
-        echo '<a href="', $url, '" target="_blank" style="text-decoration: none" title="' . esc_attr(__('Read more', 'newsletter')) . '"><i class="fas fa-question-circle"></i>&nbsp;', $text, '</a>';
+        echo '<a href="', $url, '" target="_blank" style="text-decoration: none" title="' . esc_attr(__('Leer más', 'newsletter')) . '"><i class="fas fa-question-circle"></i>&nbsp;', $text, '</a>';
     }
 
     /**

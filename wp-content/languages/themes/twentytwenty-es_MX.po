@@ -79,7 +79,7 @@ msgstr "Teatro de Operaciones"
 
 #: inc/starter-content.php:72 inc/starter-content.php:87
 #: inc/starter-content.php:104 inc/starter-content.php:119
-msgid "Read More"
+msgid "Leer más"
 msgstr "Leer más"
 
 #: inc/starter-content.php:69 inc/starter-content.php:101

@@ -234,5 +234,5 @@ Thank you, The Newsletter Team
 = 6.4.0 =
 
 * Fixed extra profile fields management in REST and PHP API
-* Removed the "read more" added by themes on posts excerpt
+* Removed the "Leer más" added by themes on posts excerpt
 * Core improvements

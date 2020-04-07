@@ -84,7 +84,7 @@
 * Added WooCommerce support in native WP registration functions. Began adding WooCommerce classes to registration form elements.
 * Added to wpmem_user_has_role() function to check for a single role or if the user has a role that is in an array of roles.
 * Added wpmem_shortcodes_loaded, wpmem_hooks_loaded, and wpmem_dropins_loaded to fire after.
-* Added text input to set a default 'read more' link for auto excerpt.
+* Added text input to set a default 'Leer más' link for auto excerpt.
 * Fixed issue with auto excerpt where an excerpt shorter than the excerpt setting would not display the more link.
 * Preliminary updates to include placeholder support in fields (this will be an option in a future release).
 * Localization fix of untranslated strings.
@@ -612,7 +612,7 @@ New Filters:
 
 * wpmem_admin_tabs - allows developers to hook into the admin tabs to add additional tabs.
 * wpmem_admin_style_list - allows developers to hook into the dropdown list of stylesheets to add additional stylesheets.
-* wpmem_auto_excerpt - filters the automatically generated excerpt.  Allows you to customize a 'read more' link.
+* wpmem_auto_excerpt - filters the automatically generated excerpt.  Allows you to customize a 'Leer más' link.
 * wpmem_post_password - filters the automatically generated post password that blocks comments on blocked posts/pages.
 * wpmem_forgot_link - filters the forgot password link that shows in the login forms.
 * wpmem_reg_link - filters the register link that shows in the login forms.

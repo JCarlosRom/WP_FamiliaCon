@@ -317,7 +317,7 @@ msgstr ""
 #. translators: %1$s - WPForms plugin name; %2$s - WPForms.com URL to a related doc.
 #: build/wpforms/includes/admin/admin.php:377
 #: includes/admin/admin.php:377
-msgid "Your site is running an outdated version of PHP that is no longer supported and may cause issues with %1$s. <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Read more</a> for additional information."
+msgid "Your site is running an outdated version of PHP that is no longer supported and may cause issues with %1$s. <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Leer más</a> for additional information."
 msgstr ""
 
 #: build/wpforms/includes/admin/admin.php:391
@@ -7627,7 +7627,7 @@ msgstr ""
 #. translators: %1$s - WPForms.com URL for documentation with more details.
 #: build/wpforms/wpforms.php:177
 #: wpforms.php:177
-msgid "<strong>Note:</strong> WPForms plugin is disabled on your site until you fix the issue. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Read more for additional information.</a>"
+msgid "<strong>Note:</strong> WPForms plugin is disabled on your site until you fix the issue. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Leer más for additional information.</a>"
 msgstr ""
 
 #: lite/wpforms-lite.php:67

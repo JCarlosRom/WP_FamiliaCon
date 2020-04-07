@@ -74,7 +74,7 @@ $bridge_qode_post_format = get_post_format();
 						<?php bridge_qode_excerpt(); ?>
                         <?php if ( ! post_password_required() ) { ?>
                             <div class="post_more">
-                                <a itemprop="url" href="<?php the_permalink(); ?>" class="qbutton small"><?php esc_html_e('Read More','bridge'); ?></a>
+                                <a itemprop="url" href="<?php the_permalink(); ?>" class="qbutton small"><?php esc_html_e('Leer más','bridge'); ?></a>
                             </div>
                         <?php } ?>
 				</div>
@@ -119,7 +119,7 @@ $bridge_qode_post_format = get_post_format();
 						<?php bridge_qode_excerpt(); ?>
                         <?php if ( ! post_password_required() ) { ?>
                             <div class="post_more">
-                                <a itemprop="url" href="<?php the_permalink(); ?>" class="qbutton small"><?php esc_html_e('Read More','bridge'); ?></a>
+                                <a itemprop="url" href="<?php the_permalink(); ?>" class="qbutton small"><?php esc_html_e('Leer más','bridge'); ?></a>
                             </div>
                         <?php } ?>
 					</div>
@@ -177,7 +177,7 @@ $bridge_qode_post_format = get_post_format();
 						<?php bridge_qode_excerpt(); ?>
                         <?php if ( ! post_password_required() ) { ?>
                             <div class="post_more">
-                                <a itemprop="url" href="<?php the_permalink(); ?>" class="qbutton small"><?php esc_html_e('Read More','bridge'); ?></a>
+                                <a itemprop="url" href="<?php the_permalink(); ?>" class="qbutton small"><?php esc_html_e('Leer más','bridge'); ?></a>
                             </div>
                         <?php } ?>
 					</div>
@@ -306,7 +306,7 @@ $bridge_qode_post_format = get_post_format();
 
                             if (!post_password_required()) { ?>
                                 <div class="post_more">
-                                    <a itemprop="url" href="<?php the_permalink(); ?>" class="qbutton small"><?php esc_html_e('Read More', 'bridge'); ?></a>
+                                    <a itemprop="url" href="<?php the_permalink(); ?>" class="qbutton small"><?php esc_html_e('Leer más', 'bridge'); ?></a>
                                 </div>
                             <?php }
 

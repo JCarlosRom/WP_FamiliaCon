@@ -1986,7 +1986,7 @@
 - Added new type of blog list - Blog Large Image Simple
 - Added option in Qode Options -> Header and Footer to add separator between first level menu items
 - Added option for landscape and portrait image sizes in portfolio list and portfolio slider shortcodes
-- Added option for read more tag in posts
+- Added option for Leer más tag in posts
 - Improved load more functionality on blog masonry to include loading info once AJAX starts
 - Improved load more functionality on portfolio list to include loading info once AJAX starts
 - Improved google fonts inclusion

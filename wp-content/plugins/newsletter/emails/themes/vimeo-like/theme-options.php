@@ -58,7 +58,7 @@ defined('ABSPATH') || exit;
                 </td>
             </tr>
             <tr>
-                <th>Read more label</th>
+                <th>Leer más label</th>
                 <td>
                     <?php $controls->text('theme_read_more'); ?>
                 </td>

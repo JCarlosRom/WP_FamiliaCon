@@ -459,7 +459,7 @@ if ( ! function_exists( 'wpsp_register' ) ) {
 	        array(
 	            'type'    => 'text',
 	            'section' => 'wpsp_content',
-	            'label'   => esc_html__( 'Read more text', 'wp-show-posts' )
+	            'label'   => esc_html__( 'Leer más text', 'wp-show-posts' )
 	        )
 	    );
 
@@ -476,7 +476,7 @@ if ( ! function_exists( 'wpsp_register' ) ) {
 	        array(
 	            'type'    => 'text',
 	            'section' => 'wpsp_content',
-	            'label'   => esc_html__( 'Read more button class', 'wp-show-posts' ),
+	            'label'   => esc_html__( 'Leer más button class', 'wp-show-posts' ),
 				'priority' => 75
 	        )
 	    );

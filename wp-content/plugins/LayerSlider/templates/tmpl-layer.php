@@ -211,7 +211,7 @@
 						<li><span>[title]</span></li>
 						<li><span>[content]</span></li>
 						<li><span>[excerpt]</span></li>
-						<li data-placeholder="<a href=&quot;[post-url]&quot;>Read more</a>"><span>[link]</span></li>
+						<li data-placeholder="<a href=&quot;[post-url]&quot;>Leer más</a>"><span>[link]</span></li>
 						<li><span>[author]</span></li>
 						<li><span>[author-name]</span></li>
 						<li><span>[author-avatar]</span></li>
