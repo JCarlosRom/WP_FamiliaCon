@@ -42,13 +42,15 @@ function tnp_post_thumbnail_src($post, $size = 'thumbnail', $alternative = '') {
     return $media[0];
 }
 
+/**
+ * @param WP_Post $post
+ * @param int $length
+ *
+ * @return string
+ */
 function tnp_post_excerpt($post, $length = 30) {
-    if (empty($post->post_excerpt)) {
-        $excerpt = tnp_delete_all_shordcodes_tags(wp_strip_all_tags($post->post_content));
-        $excerpt = wp_trim_words($excerpt, $length);
-    } else {
-        $excerpt = wp_trim_words($post->post_excerpt, $length);
-    }
+    $excerpt = tnp_delete_all_shordcodes_tags(get_the_excerpt($post->ID));
+    $excerpt = wp_trim_words($excerpt, $length);
 
     return $excerpt;
 }
@@ -82,12 +84,12 @@ function tnp_post_date($post, $format = null) {
 }
 
 /**
- * Tries to create a resized version of a media uploaded to the media library. 
+ * Tries to create a resized version of a media uploaded to the media library.
  * Returns an empty string if the media does not exists or generally if the attached file
  * cannot be found. If the resize fails for whatever reason, fall backs to the
- * standard image source returned by WP which is usually not exactly the 
+ * standard image source returned by WP which is usually not exactly the
  * requested size.
- * 
+ *
  * @param int $media_id
  * @param array $size
  * @return string
@@ -172,7 +174,7 @@ function _tnp_get_default_media($media_id, $size) {
 
 /**
  * Create a resized version of the media stored in the WP media library.
- *  
+ *
  * @param int $media_id
  * @param array $size
  * @return TNP_Media
@@ -264,19 +266,20 @@ function tnp_resize($media_id, $size) {
  *
  * @return TNP_Media
  */
-function tnp_composer_block_posts_get_media($post, $size, $default_image_url) {
+function tnp_composer_block_posts_get_media($post, $size, $default_image_url = null) {
     $post_thumbnail_id = TNP_Composer::get_post_thumbnail_id($post);
+
+    $media = null;
 
     if (!empty($post_thumbnail_id)) {
         $media = tnp_resize($post_thumbnail_id, array_values($size));
-    } else {
+    } else if ($default_image_url) {
         Newsletter::instance()->logger->error('Thumbnail id not found');
         $media = new TNP_Media();
         $media->url = $default_image_url;
         $media->width = $size['width'];
         $media->height = $size['height'];
     }
-
     return $media;
 }
 

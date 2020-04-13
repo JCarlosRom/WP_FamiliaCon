@@ -80,7 +80,7 @@ abstract class TNP_User {
  * @property array $options The subscriber status
  * */
 abstract class TNP_Email {
-    
+
 }
 
 class NewsletterModule {
@@ -161,7 +161,7 @@ class NewsletterModule {
     }
 
     /**
-     * 
+     *
      * @global wpdb $wpdb
      * @param string $query
      */
@@ -188,7 +188,7 @@ class NewsletterModule {
     }
 
     /**
-     * 
+     *
      * @global wpdb $wpdb
      * @param string $table
      * @param array $data
@@ -611,7 +611,7 @@ class NewsletterModule {
     }
 
     function admin_menu() {
-        
+
     }
 
     function add_menu_page($page, $title, $capability = '') {
@@ -678,9 +678,10 @@ class NewsletterModule {
 
     /**
      * Retrieves an email from DB and unserialize the options.
-     * 
+     *
      * @param mixed $id
      * @param string $format
+     * @return TNP_Email An object with the same fields of TNP_Email, but not actually of that type
      */
     function get_email($id, $format = OBJECT) {
         $email = $this->store->get_single(NEWSLETTER_EMAILS_TABLE, $id, $format);
@@ -708,7 +709,7 @@ class NewsletterModule {
     }
 
     /**
-     * Save an email and provide serialization, if needed, of $email['options']. 
+     * Save an email and provide serialization, if needed, of $email['options'].
      * @return TNP_Email
      */
     function save_email($email, $return_format = OBJECT) {
@@ -755,7 +756,7 @@ class NewsletterModule {
     }
 
     /**
-     * 
+     *
      * @global wpdb $wpdb
      * @param int|array $id
      * @return boolean
@@ -963,7 +964,7 @@ class NewsletterModule {
 
     /**
      * Accepts a user ID or a TNP_User object. Does not check if the user really exists.
-     * 
+     *
      * @param type $user
      */
     function get_user_edit_url($user) {
@@ -999,9 +1000,9 @@ class NewsletterModule {
 
     /**
      * Return the user identified by the "nk" parameter (POST or GET).
-     * If no user can be found or the token is not matching, returns null. 
+     * If no user can be found or the token is not matching, returns null.
      * If die_on_fail is true it dies instead of return null.
-     * 
+     *
      * @param bool $die_on_fail
      * @return TNP_User
      */
@@ -1094,7 +1095,7 @@ class NewsletterModule {
     }
 
     /**
-     * 
+     *
      * @return TNP_List[]
      */
     function get_lists_public($language = '') {
@@ -1116,7 +1117,7 @@ class NewsletterModule {
 
     /**
      * Lists to be shown on subscription form.
-     * 
+     *
      * @return TNP_List[]
      */
     function get_lists_for_subscription($language = '') {
@@ -1138,7 +1139,7 @@ class NewsletterModule {
 
     /**
      * Returns the lists to be shown in the profile page.
-     * 
+     *
      * @return TNP_List[]
      */
     function get_lists_for_profile($language = '') {
@@ -1160,7 +1161,7 @@ class NewsletterModule {
 
     /**
      * Returns a list as an object (with the same signature of TNP_List)
-     * 
+     *
      * @param int $id
      * @return TNP_List
      */
@@ -1207,7 +1208,7 @@ class NewsletterModule {
 
     /**
      * Updates the user last activity timestamp.
-     * 
+     *
      * @global wpdb $wpdb
      * @param TNP_User $user
      */
@@ -1225,7 +1226,7 @@ class NewsletterModule {
     /**
      * Finds single style blocks and adds a style attribute to every HTML tag with a class exactly matching the rules in the style
      * block. HTML tags can use the attribute "inline-class" to exact match a style rules if they need a composite class definition.
-     * 
+     *
      * @param string $content
      * @param boolean $strip_style_blocks
      * @return string
@@ -1266,7 +1267,7 @@ class NewsletterModule {
 
     /**
      * Deletes a subscriber and cleans up all the stats table with his correlated data.
-     * 
+     *
      * @global wpdb $wpdb
      * @param int|id[] $id
      */
@@ -1289,7 +1290,7 @@ class NewsletterModule {
     /**
      * Add to a destination URL the parameters to identify the user, the email and to show
      * an alert message, if required. The parameters are then managed by the [newsletter] shortcode.
-     * 
+     *
      * @param string $url If empty the standard newsletter page URL is used (usually it is empty, but sometime a custom URL has been specified)
      * @param string $message_key The message identifier
      * @param TNP_User|int $user
@@ -1333,7 +1334,7 @@ class NewsletterModule {
 
     /**
      * Builds a standard Newsletter action URL for the specified action.
-     * 
+     *
      * @param string $action
      * @param TNP_User $user
      * @param TNP_Email $email
@@ -1426,7 +1427,7 @@ class NewsletterModule {
 
     /**
      * Changes a user status. Accept a user object, user id or user email.
-     * 
+     *
      * @param TNP_User $user
      * @param string $status
      * @return TNP_User
@@ -1442,7 +1443,7 @@ class NewsletterModule {
     }
 
     /**
-     * 
+     *
      * @global wpdb $wpdb
      * @param TNP_User $user
      * @return TNP_User
@@ -1458,8 +1459,8 @@ class NewsletterModule {
     }
 
     /**
-     * Create a log entry with the meaningful user data. 
-     * 
+     * Create a log entry with the meaningful user data.
+     *
      * @global wpdb $wpdb
      * @param TNP_User $user
      * @param string $source
@@ -1480,7 +1481,7 @@ class NewsletterModule {
     }
 
     /**
-     * 
+     *
      * @global wpdb $wpdb
      * @param TNP_User $user
      * @param int $list
@@ -1503,7 +1504,7 @@ class NewsletterModule {
     }
 
     /**
-     * 
+     *
      * @param int $wp_user_id
      * @param string $format
      * @return TNP_User
@@ -1526,7 +1527,7 @@ class NewsletterModule {
 
     /**
      * Replaces every possible Newsletter tag ({...}) in a piece of text or HTML.
-     * 
+     *
      * @global wpdb $wpdb
      * @param string $text
      * @param mixed $user Can be an object, associative array or id
@@ -1833,7 +1834,7 @@ class NewsletterModule {
     /**
      * Takes in a variable and checks if object, array or scalar and return the integer representing
      * a database record id.
-     * 
+     *
      * @param mixed $var
      * @return in
      */
@@ -1901,7 +1902,7 @@ class NewsletterModule {
      * Return the current language code. Optionally, if a user is passed and it has a language
      * the user language is returned.
      * If there is no language available, an empty string is returned.
-     * 
+     *
      * @param TNP_User $user
      * @return string The language code
      */
@@ -2017,6 +2018,40 @@ class NewsletterModule {
         return $posts;
     }
 
+	protected function generate_admin_notification_message( $user ) {
+
+		$message = "Subscriber details:\n\n" .
+		           "email: " . $user->email . "\n" .
+		           "first name: " . $user->name . "\n" .
+		           "last name: " . $user->surname . "\n" .
+		           "gender: " . $user->sex . "\n";
+
+		$lists = $this->get_lists();
+		foreach ( $lists as $list ) {
+			$field   = 'list_' . $list->id;
+			$message .= $list->name . ': ' . ( empty( $user->$field ) ? "NO" : "YES" ) . "\n";
+		}
+
+		for ( $i = 0; $i < NEWSLETTER_PROFILE_MAX; $i ++ ) {
+			if ( empty( $this->options_profile[ 'profile_' . $i ] ) ) {
+				continue;
+			}
+			$field   = 'profile_' . $i;
+			$message .= $this->options_profile[ 'profile_' . $i ] . ': ' . $user->$field . "\n";
+		}
+
+		$message .= "token: " . $user->token . "\n" .
+		            "status: " . $user->status . "\n";
+
+		return $message;
+	}
+
+	protected function generate_admin_notification_subject( $subject ) {
+		$blogname = wp_specialchars_decode( get_option( 'blogname' ), ENT_QUOTES );
+
+		return '[' . $blogname . '] ' . $subject;
+	}
+
 }
 
 /**
@@ -2037,7 +2072,7 @@ function newsletter_get_post_image($post_id = null, $size = 'thumbnail', $altern
 
 /**
  * Accepts a post or a post ID.
- * 
+ *
  * @param WP_Post $post
  */
 function newsletter_the_excerpt($post, $words = 30) {

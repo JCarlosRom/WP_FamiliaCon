@@ -44,7 +44,7 @@ if (!$controls->is_action()) {
 
     </div>
 
-    <div id="tnp-body"> 
+    <div id="tnp-body">
 
         <form method="post" action="">
             <?php $controls->init(); ?>
@@ -60,6 +60,12 @@ if (!$controls->is_action()) {
                 </ul>
                 <div id="tabs-cancellation">
                     <table class="form-table">
+                        <tr>
+                            <th><?php _e('Notify admin on unsubscription', 'newsletter') ?></th>
+                            <td>
+			                    <?php $controls->yesno('notify_admin_on_unsubscription'); ?>
+                            </td>
+                        </tr>
                         <tr>
                             <th><?php _e('Cancellation message', 'newsletter') ?></th>
                             <td>
@@ -92,13 +98,13 @@ if (!$controls->is_action()) {
                             <td>
                                 <?php $controls->wp_editor('error_text', array('editor_height'=>150)); ?>
                                 <p class="description">
-                                   
+
                                 </p>
                             </td>
-                        </tr>                       
+                        </tr>
                     </table>
                 </div>
-                
+
                 <div id="tabs-reactivation">
                     <table class="form-table">
                         <tr>

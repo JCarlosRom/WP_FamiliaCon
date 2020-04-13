@@ -242,6 +242,7 @@ class TNP_Composer {
      * @return bool
      */
     static function is_post_field_edited_inline($inline_edit_list, $field_type, $post_id) {
+        if (empty($inline_edit_list)) return false;
         foreach ($inline_edit_list as $edit) {
             if ($edit['type'] == $field_type && $edit['post_id'] == $post_id) {
                 return true;

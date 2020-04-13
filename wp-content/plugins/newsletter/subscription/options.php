@@ -67,7 +67,7 @@ if ($controls->is_action()) {
 
         $users = NewsletterUsers::instance()->get_test_users();
         if (count($users) == 0) {
-            $controls->errors = 'There are no test subscribers. Leer más about test subscribers <a href="https://www.thenewsletterplugin.com/plugins/newsletter/subscribers-module#test" target="_blank">here</a>.';
+            $controls->errors = 'There are no test subscribers. Read more about test subscribers <a href="https://www.thenewsletterplugin.com/plugins/newsletter/subscribers-module#test" target="_blank">here</a>.';
         } else {
             $addresses = array();
             foreach ($users as &$user) {
@@ -79,7 +79,7 @@ if ($controls->is_action()) {
                 }
             }
             $controls->messages .= 'Test emails sent to ' . count($users) . ' test subscribers: ' .
-                    implode(', ', $addresses) . '. Leer más about test subscribers <a href="https://www.thenewsletterplugin.com/plugins/newsletter/subscribers-module#test" target="_blank">here</a>.';
+                    implode(', ', $addresses) . '. Read more about test subscribers <a href="https://www.thenewsletterplugin.com/plugins/newsletter/subscribers-module#test" target="_blank">here</a>.';
             $controls->messages .= '<br>If the message is not received, try to change the message text it could trigger some antispam filters.';
         }
     }
@@ -88,7 +88,7 @@ if ($controls->is_action()) {
 
         $users = NewsletterUsers::instance()->get_test_users();
         if (count($users) == 0) {
-            $controls->errors = 'There are no test subscribers. Leer más about test subscribers <a href="https://www.thenewsletterplugin.com/plugins/newsletter/subscribers-module#test" target="_blank">here</a>.';
+            $controls->errors = 'There are no test subscribers. Read more about test subscribers <a href="https://www.thenewsletterplugin.com/plugins/newsletter/subscribers-module#test" target="_blank">here</a>.';
         } else {
             $addresses = array();
             foreach ($users as $user) {
@@ -100,7 +100,7 @@ if ($controls->is_action()) {
                 }
             }
             $controls->messages .= 'Test emails sent to ' . count($users) . ' test subscribers: ' .
-                    implode(', ', $addresses) . '. Leer más about test subscribers <a href="https://www.thenewsletterplugin.com/plugins/newsletter/subscribers-module#test" target="_blank">here</a>.';
+                    implode(', ', $addresses) . '. Read more about test subscribers <a href="https://www.thenewsletterplugin.com/plugins/newsletter/subscribers-module#test" target="_blank">here</a>.';
             $controls->messages .= '<br>If the message is not received, try to change the message text it could trigger some antispam filters.';
         }
     }

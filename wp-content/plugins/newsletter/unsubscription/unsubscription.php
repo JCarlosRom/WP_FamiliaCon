@@ -95,7 +95,7 @@ class NewsletterUnsubscription extends NewsletterModule {
 
         $this->send_unsubscribed_email($user);
 
-        NewsletterSubscription::instance()->notify_admin($user, 'Newsletter unsubscription');
+        $this->notify_admin_on_unsubscription($user);
 
         return $user;
     }
@@ -112,10 +112,24 @@ class NewsletterUnsubscription extends NewsletterModule {
         return NewsletterSubscription::instance()->mail($user, $subject, $message);
     }
 
+	function notify_admin_on_unsubscription( $user ) {
+
+		if ( empty( $this->options['notify_admin_on_unsubscription'] ) ) {
+			return;
+		}
+
+		$message = $this->generate_admin_notification_message( $user );
+		$email   = trim( get_option( 'admin_email' ) );
+		$subject = $this->generate_admin_notification_subject( 'Newsletter unsubscription' );
+
+		Newsletter::instance()->mail( $email, $subject, array( 'text' => $message ) );
+
+	}
+
     /**
-     * Reactivate the subscriber extracted from the request setting his status 
+     * Reactivate the subscriber extracted from the request setting his status
      * to confirmed and logging. No email are sent. Dies on subscriber extraction failure.
-     * 
+     *
      * @return TNP_User
      */
     function reactivate() {

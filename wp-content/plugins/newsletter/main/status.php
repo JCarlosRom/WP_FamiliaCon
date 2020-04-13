@@ -99,7 +99,7 @@ if ($controls->is_action('test')) {
             $options['mail'] = 1;
             $controls->messages .= '<strong>SUCCESS</strong><br>';
             $controls->messages .= 'Anyway if the message does not appear the mailbox (check even the spam folder) you can ';
-            $controls->messages .= '<a href="https://www.thenewsletterplugin.com/documentation/?p=15170" target="_blank"><strong>Leer más here</strong></a>.';
+            $controls->messages .= '<a href="https://www.thenewsletterplugin.com/documentation/?p=15170" target="_blank"><strong>read more here</strong></a>.';
         } else {
             $options['mail'] = 0;
             $options['mail_error'] = $r->get_error_message();
@@ -110,7 +110,7 @@ if ($controls->is_action('test')) {
                 $controls->errors .= '- Try to remove the return path on main settings.<br>';
             }
 
-            $controls->errors .= '<a href="https://www.thenewsletterplugin.com/documentation/?p=15170" target="_blank"><strong>' . __('Leer más', 'newsletter') . '</strong></a>.';
+            $controls->errors .= '<a href="https://www.thenewsletterplugin.com/documentation/?p=15170" target="_blank"><strong>' . __('Read more', 'newsletter') . '</strong></a>.';
 
             $parts = explode('@', $module->options['sender_email']);
             $sitename = strtolower($_SERVER['SERVER_NAME']);
@@ -208,7 +208,7 @@ function tnp_status_print_flag($condition) {
                                 </ol>
                             <?php } ?>
                             <br>
-                            <a href="https://www.thenewsletterplugin.com/documentation/email-sending-issues" target="_blank">Leer más to solve your issues, if any</a>.    
+                            <a href="https://www.thenewsletterplugin.com/documentation/email-sending-issues" target="_blank">Read more to solve your issues, if any</a>.    
                             <br>
                             Email: <?php $controls->text_email('test_email') ?> <?php $controls->button('test', __('Send a test message')) ?>
                         </td>
@@ -389,7 +389,7 @@ function tnp_status_print_flag($condition) {
                                 No next execution is planned.
                                 <?php $controls->button('reschedule', 'Reset') ?>
                             <?php } else if ($delta <= -600) { ?>
-                                The scheduler is very late: <?php echo $delta ?> seconds (<a href="https://www.thenewsletterplugin.com/plugins/newsletter/newsletter-delivery-engine" target="_blank">Leer más</a>)
+                                The scheduler is very late: <?php echo $delta ?> seconds (<a href="https://www.thenewsletterplugin.com/plugins/newsletter/newsletter-delivery-engine" target="_blank">read more</a>)
                                 <?php $controls->button('trigger', 'Trigger') ?>
                             <?php } else { ?>
                                 Next execution is planned in <?php echo $delta ?> seconds (negative values are ok).
@@ -554,7 +554,7 @@ function tnp_status_print_flag($condition) {
                             <td>
                                 <?php if ($send_mean > 1) { ?>
                                     <strong>Sending an email is taking more than 1 second, rather slow.</strong>
-                                    <a href="https://www.thenewsletterplugin.com/documentation/status-panel#status-performance" target="_blank">Leer más</a>.
+                                    <a href="https://www.thenewsletterplugin.com/documentation/status-panel#status-performance" target="_blank">Read more</a>.
                                 <?php } ?>
                                 Average time to send an email: <?php echo sprintf("%.2f", $send_mean) ?> seconds<br>
                                 <?php if ($send_mean > 0) { ?>
@@ -617,15 +617,15 @@ function tnp_status_print_flag($condition) {
                       <td>
                       WordPress WP_MEMORY_LIMIT is set to <?php echo $memory ?> megabyte but your PHP setting could allow more than that.
                       Anyway we suggest to set the value to at least 64M.
-                      <a href="https://www.thenewsletterplugin.com/documentation/status-panel#status-memory" target="_blank">Leer más</a>.
+                      <a href="https://www.thenewsletterplugin.com/documentation/status-panel#status-memory" target="_blank">Read more</a>.
                       <?php if ($memory < 64) { ?>
                       This value is too low you should increase it adding <code>define('WP_MEMORY_LIMIT', '64M');</code> to your <code>wp-config.php</code>.
-                      <a href="https://www.thenewsletterplugin.com/documentation/status-panel#status-memory" target="_blank">Leer más</a>.
+                      <a href="https://www.thenewsletterplugin.com/documentation/status-panel#status-memory" target="_blank">Read more</a>.
                       <?php } else if ($memory < 128) { ?>
                       The value should be fine, it depends on how many plugins you're running and how many resource are required by your theme.
                       Blank pages may happen with low memory problems. Eventually increase it adding <code>define('WP_MEMORY_LIMIT', '128M');</code>
                       to your <code>wp-config.php</code>.
-                      <a href="https://www.thenewsletterplugin.com/documentation/status-panel#status-memory" target="_blank">Leer más</a>.
+                      <a href="https://www.thenewsletterplugin.com/documentation/status-panel#status-memory" target="_blank">Read more</a>.
                       <?php } else { ?>
 
                       <?php } ?>
@@ -775,7 +775,7 @@ function tnp_status_print_flag($condition) {
                             <br>
                             Trigger interval: average <?php echo $wp_cron_calls_avg ?>&nbsp;s, max <?php echo $wp_cron_calls_max ?>&nbsp;s, min <?php echo $wp_cron_calls_min ?>&nbsp;s
                             <br>
-                            <a href="https://www.thenewsletterplugin.com/documentation/delivery-and-spam/newsletter-delivery-engine/" target="_blank">Leer más</a>
+                            <a href="https://www.thenewsletterplugin.com/documentation/delivery-and-spam/newsletter-delivery-engine/" target="_blank">Read more</a>
                         </td>
                     </tr>
                     <tr>
@@ -809,7 +809,7 @@ function tnp_status_print_flag($condition) {
                             <?php } ?>
                             Url: <?php echo esc_html(site_url('/wp-cron.php')) ?><br>
                             <br>
-                            <a href="https://www.thenewsletterplugin.com/documentation/delivery-and-spam/newsletter-delivery-engine/" target="_blank">Leer más</a>
+                            <a href="https://www.thenewsletterplugin.com/documentation/delivery-and-spam/newsletter-delivery-engine/" target="_blank">Read more</a>
                         </td>
                     </tr>
                 </tbody>

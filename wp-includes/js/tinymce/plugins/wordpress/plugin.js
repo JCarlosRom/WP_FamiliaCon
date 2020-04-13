@@ -1,6 +1,6 @@
 /* global getUserSetting, setUserSetting */
 ( function( tinymce ) {
-// Set the minimum value for the modals z-index higher than #wpadminbar (100000)
+// Set the minimum value for the modals z-index higher than #wpadminbar (100000).
 if ( ! tinymce.ui.FloatPanel.zIndex || tinymce.ui.FloatPanel.zIndex < 100100 ) {
 	tinymce.ui.FloatPanel.zIndex = 100100;
 }
@@ -88,7 +88,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 		}
 	});
 
-	// Hide the toolbars after loading
+	// Hide the toolbars after loading.
 	editor.on( 'PostRender', function() {
 		if ( editor.getParam( 'wordpress_adv_hidden', true ) && getUserSetting( 'hidetb', '0' ) === '0' ) {
 			toggleToolbars( 'hide' );
@@ -110,7 +110,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 
 		if ( event.content ) {
 			if ( event.content.indexOf( '<!--more' ) !== -1 ) {
-				title = __( 'Leer más...' );
+				title = __( 'Read more...' );
 
 				event.content = event.content.replace( /<!--more(.*?)-->/g, function( match, moretext ) {
 					return '<img src="' + tinymce.Env.transparentSrc + '" data-wp-more="more" data-wp-more-text="' + moretext + '" ' +
@@ -191,7 +191,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 		}
 	});
 
-	// Display the tag name instead of img in element path
+	// Display the tag name instead of img in element path.
 	editor.on( 'ResolveName', function( event ) {
 		var attr;
 
@@ -200,7 +200,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 		}
 	});
 
-	// Register commands
+	// Register commands.
 	editor.addCommand( 'WP_More', function( tag ) {
 		var parent, html, title,
 			classname = 'wp-more-tag',
@@ -210,18 +210,18 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 
 		tag = tag || 'more';
 		classname += ' mce-wp-' + tag;
-		title = tag === 'more' ? 'Leer más...' : 'Next page';
+		title = tag === 'more' ? 'Read more...' : 'Next page';
 		title = __( title );
 		html = '<img src="' + tinymce.Env.transparentSrc + '" alt="" title="' + title + '" class="' + classname + '" ' +
 			'data-wp-more="' + tag + '" data-mce-resize="false" data-mce-placeholder="1" />';
 
-		// Most common case
+		// Most common case.
 		if ( node === rootNode || ( node.nodeName === 'P' && node.parentNode === rootNode ) ) {
 			editor.insertContent( html );
 			return;
 		}
 
-		// Get the top level parent node
+		// Get the top level parent node.
 		parent = dom.getParent( node, function( found ) {
 			if ( found.parentNode && found.parentNode === rootNode ) {
 				return true;
@@ -328,7 +328,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 
 		html = '<div class="wp-editor-help">';
 
-		// Main section, default and additional shortcuts
+		// Main section, default and additional shortcuts.
 		html = html +
 			'<h2>' + __( 'Default shortcuts,' ) + ' ' + meta + '</h2>' +
 			'<table class="wp-help-th-center fixed">' +
@@ -342,7 +342,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 			'</table>';
 
 		if ( editor.plugins.wptextpattern && ( ! tinymce.Env.ie || tinymce.Env.ie > 8 ) ) {
-			// Text pattern section
+			// Text pattern section.
 			html = html +
 				'<h2>' + __( 'When starting a new paragraph with one of these formatting shortcuts followed by a space, the formatting will be applied automatically. Press Backspace or Escape to undo.' ) + '</h2>' +
 				'<table class="wp-help-th-center fixed">' +
@@ -363,7 +363,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 				'</table>';
 		}
 
-		// Focus management section
+		// Focus management section.
 		html = html +
 			'<h2>' + __( 'Focus shortcuts:' ) + '</h2>' +
 			'<table class="wp-help-single">' +
@@ -413,9 +413,9 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 		}
 	});
 
-	// Register buttons
+	// Register buttons.
 	editor.addButton( 'wp_more', {
-		tooltip: 'Insert Leer más tag',
+		tooltip: 'Insert Read More tag',
 		onclick: function() {
 			editor.execCommand( 'WP_More', 'more' );
 		}
@@ -439,7 +439,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 		stateSelector: 'code'
 	});
 
-	// Insert->Add Media
+	// Insert->Add Media.
 	if ( wp && wp.media && wp.media.editor ) {
 		editor.addButton( 'wp_add_media', {
 			tooltip: 'Add Media',
@@ -455,9 +455,9 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 		});
 	}
 
-	// Insert "Leer más..."
+	// Insert "Read More...".
 	editor.addMenuItem( 'wp_more', {
-		text: 'Insert Leer más tag',
+		text: 'Insert Read More tag',
 		icon: 'wp_more',
 		context: 'insert',
 		onclick: function() {
@@ -465,7 +465,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 		}
 	});
 
-	// Insert "Next Page"
+	// Insert "Next Page".
 	editor.addMenuItem( 'wp_page', {
 		text: 'Page break',
 		icon: 'wp_page',
@@ -496,7 +496,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 
 	editor.on( 'init', function() {
 		var env = tinymce.Env,
-			bodyClass = ['mceContentBody'], // back-compat for themes that use this in editor-style.css...
+			bodyClass = ['mceContentBody'], // Back-compat for themes that use this in editor-style.css...
 			doc = editor.getDoc(),
 			dom = editor.dom;
 
@@ -531,7 +531,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 			}
 		});
 
-		// Remove invalid parent paragraphs when inserting HTML
+		// Remove invalid parent paragraphs when inserting HTML.
 		editor.on( 'BeforeSetContent', function( event ) {
 			if ( event.content ) {
 				event.content = event.content.replace( /<p>\s*<(p|div|ul|ol|dl|table|blockquote|h[1-6]|fieldset|pre)( [^>]*)?>/gi, '<$1$2>' )
@@ -554,21 +554,21 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 
 		if ( editor.getParam( 'wp_paste_filters', true ) ) {
 			editor.on( 'PastePreProcess', function( event ) {
-				// Remove trailing <br> added by WebKit browsers to the clipboard
+				// Remove trailing <br> added by WebKit browsers to the clipboard.
 				event.content = event.content.replace( /<br class="?Apple-interchange-newline"?>/gi, '' );
 
-				// In WebKit this is handled by removeWebKitStyles()
+				// In WebKit this is handled by removeWebKitStyles().
 				if ( ! tinymce.Env.webkit ) {
-					// Remove all inline styles
+					// Remove all inline styles.
 					event.content = event.content.replace( /(<[^>]+) style="[^"]*"([^>]*>)/gi, '$1$2' );
 
-					// Put back the internal styles
+					// Put back the internal styles.
 					event.content = event.content.replace(/(<[^>]+) data-mce-style=([^>]+>)/gi, '$1 style=$2' );
 				}
 			});
 
 			editor.on( 'PastePostProcess', function( event ) {
-				// Remove empty paragraphs
+				// Remove empty paragraphs.
 				editor.$( 'p', event.node ).each( function( i, node ) {
 					if ( dom.isEmpty( node ) ) {
 						dom.remove( node );
@@ -585,7 +585,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 	});
 
 	editor.on( 'SaveContent', function( event ) {
-		// If editor is hidden, we just want the textarea's value to be saved
+		// If editor is hidden, we just want the textarea's value to be saved.
 		if ( ! editor.inline && editor.isHidden() ) {
 			event.content = event.element.value;
 			return;
@@ -700,7 +700,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 
 		wpTooltips = {};
 
-		// For MacOS: ctrl = \u2303, cmd = \u2318, alt = \u2325
+		// For MacOS: ctrl = \u2303, cmd = \u2318, alt = \u2325.
 		if ( tinymce.Env.mac ) {
 			access = '\u2303\u2325';
 			meta = '\u2318';
@@ -761,7 +761,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 	}
 
 	function addShortcutsToListbox() {
-		// listbox for the "blocks" drop-down
+		// listbox for the "blocks" drop-down.
 		each( editor.theme.panel.find( 'listbox' ), function( listbox ) {
 			if ( listbox && listbox.settings.text === 'Paragraph' ) {
 				each( listbox.settings.values, function( item ) {
@@ -1118,9 +1118,11 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 					event.type === 'resize' ||
 					event.type === 'scroll'
 				) && ! activeToolbar.blockHide ) {
-					// Showing a tooltip may trigger a `resize` event in Chromium browsers.
-					// That results in a flicketing inline menu; tooltips are shown on hovering over a button,
-					// which then hides the toolbar on `resize`, then it repeats as soon as the toolbar is shown again.
+					/*
+					 * Showing a tooltip may trigger a `resize` event in Chromium browsers.
+					 * That results in a flicketing inline menu; tooltips are shown on hovering over a button,
+					 * which then hides the toolbar on `resize`, then it repeats as soon as the toolbar is shown again.
+					 */
 					if ( event.type === 'resize' || event.type === 'resizewindow' ) {
 						win = editor.getWin();
 						size = win.innerHeight + win.innerWidth;
@@ -1187,7 +1189,7 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 
 	function noop() {}
 
-	// Expose some functions (back-compat)
+	// Expose some functions (back-compat).
 	return {
 		_showButtons: noop,
 		_hideButtons: noop,

@@ -1,8 +1,8 @@
 === Newsletter ===
 Tags: email, email marketing, newsletter, newsletter subscribers, welcome email, signup forms, contact, lead generation, popup, marketing automation
 Requires at least: 3.4.0
-Tested up to: 5.3.2
-Stable tag: 6.5.8
+Tested up to: 5.4
+Stable tag: 6.5.9
 Requires PHP: 5.6
 Contributors: satollo,webagile,michael-travan
 
@@ -108,6 +108,13 @@ Thank you, The Newsletter Team
 3. The Reports extension
 
 == Changelog ==
+
+= 6.5.9 =
+
+* Revisited the posts block
+* Support for the new Reports addon styles
+* Improved the excerpt extraction
+* Cancellation administrative notifications on/off switch 
 
 = 6.5.8 =
 
@@ -234,5 +241,5 @@ Thank you, The Newsletter Team
 = 6.4.0 =
 
 * Fixed extra profile fields management in REST and PHP API
-* Removed the "Leer más" added by themes on posts excerpt
+* Removed the "read more" added by themes on posts excerpt
 * Core improvements

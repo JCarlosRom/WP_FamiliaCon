@@ -24,7 +24,7 @@ if ($controls->is_action('save')) {
         <h2><?php _e('Custom Forms', 'newsletter') ?></h2>
         <p>
             Here you can store your hand coded forms to recall them from short codes.
-            <a href="https://www.thenewsletterplugin.com/plugins/newsletter/newsletter-forms" target="_blank">Leer más about forms</a>.
+            <a href="https://www.thenewsletterplugin.com/plugins/newsletter/newsletter-forms" target="_blank">Read more about forms</a>.
         </p>
 
     </div>

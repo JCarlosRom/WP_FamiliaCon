@@ -2441,3 +2441,6 @@ span.tnp-email-status-sent {
     color: #3498DB;
 }
 
+.text-left {
+    text-align: left;
+}

@@ -230,11 +230,10 @@ CUSTOM CSS RULES.
     background-color: #f4f4f4;
     color: #444;
     font-size: 14px;
-    margin-bottom:15px;
 }
 
 .tnp-widget-minimal input.tnp-submit {
-    width: 50%;
+    width: 100%;
     box-sizing: border-box;
     padding: 10px;
     display: inline-block;
@@ -249,8 +248,7 @@ CUSTOM CSS RULES.
     border-radius: 0px;
     box-sizing: border-box;
     height: auto;
-    margin-left: 25%;
-
+    margin: 0;
 }
 
 /* The minimal form */
@@ -267,7 +265,8 @@ CUSTOM CSS RULES.
 }
 
 .tnp-subscription-minimal input.tnp-email {
-    width: 100%;
+    width: 70%;
+    max-width: 300px;
     box-sizing: border-box;
     padding: 10px;
     display: inline-block;
@@ -277,11 +276,6 @@ CUSTOM CSS RULES.
     font-size: 14px;
     line-height: 20px;
     border-radius: 0px;
-    margin-bottom:15px;
-}
-
-.tnp-subscription-minimal input.tnp-email::before{
-    content: '\A'; white-space: pre;
 }
 
 .tnp-subscription-minimal .tnp-privacy-field {
@@ -289,13 +283,13 @@ CUSTOM CSS RULES.
 }
 
 .tnp-subscription-minimal input.tnp-submit {
-    width: 100%;
+    width: 29%;
     box-sizing: border-box;
     display: inline-block;
     padding: 10px;
     border: 1px;
     border-color: #ddd;
-    background-color: #D73A4E;
+    background-color: #444;
     background-image: none;
     text-shadow: none;
     color: #fff;
@@ -304,7 +298,6 @@ CUSTOM CSS RULES.
     box-sizing: border-box;
     border-radius: 0px;
     margin: 0;
-   
 }
 
 /* Comments Extension */

@@ -934,11 +934,19 @@ class NewsletterEmails extends NewsletterModule {
         return $css;
     }
 
+    /**
+     * Send an email to the test subscribers.
+     * 
+     * @param TNP_Email $email Could be any object with the TNP_Email attributes
+     * @param NewsletterControls $controls
+     */
     function send_test_email($email, $controls) {
         if (!$email) {
             $controls->errors = __('Newsletter should be saved before send a test', 'newsletter');
             return;
         }
+        $original_subject = $email->subject;
+        
         if ($email->subject == '') {
             $email->subject = '[TEST] Dummy subject, it was empty (remember to set it)';
         } else {
@@ -948,7 +956,7 @@ class NewsletterEmails extends NewsletterModule {
         if (count($users) == 0) {
             $controls->errors = '' . __('There are no test subscribers to send to', 'newsletter') .
                     '. <a href="https://www.thenewsletterplugin.com/plugins/newsletter/subscribers-module#test" target="_blank"><strong>' .
-                    __('Leer más', 'newsletter') . '</strong></a>.';
+                    __('Read more', 'newsletter') . '</strong></a>.';
         } else {
             $r = Newsletter::instance()->send($email, $users, true);
             $emails = array();
@@ -961,17 +969,18 @@ class NewsletterEmails extends NewsletterModule {
                 $controls->errors .= ' ' . implode(', ', $emails);
                 $controls->errors .= '<br>';
                 $controls->errors .= '<strong>' . esc_html($r->get_error_message()) . '</strong><br>';
-                $controls->errors .= '<a href="https://www.thenewsletterplugin.com/documentation/email-sending-issues" target="_blank"><strong>' . __('Leer más about delivery issues', 'newsletter') . '</strong></a>.';
+                $controls->errors .= '<a href="https://www.thenewsletterplugin.com/documentation/email-sending-issues" target="_blank"><strong>' . __('Read more about delivery issues', 'newsletter') . '</strong></a>.';
             } else {
                 $controls->messages = __('Test subscribers:', 'newsletter');
 
                 $controls->messages .= ' ' . implode(', ', $emails);
                 $controls->messages .= '.<br>';
                 $controls->messages .= '<a href="https://www.thenewsletterplugin.com/documentation/subscribers#test" target="_blank"><strong>' .
-                        __('Leer más about test subscribers', 'newsletter') . '</strong></a>.<br>';
-                $controls->messages .= '<a href="https://www.thenewsletterplugin.com/documentation/email-sending-issues" target="_blank"><strong>' . __('Leer más about delivery issues', 'newsletter') . '</strong></a>.';
+                        __('Read more about test subscribers', 'newsletter') . '</strong></a>.<br>';
+                $controls->messages .= '<a href="https://www.thenewsletterplugin.com/documentation/email-sending-issues" target="_blank"><strong>' . __('Read more about delivery issues', 'newsletter') . '</strong></a>.';
             }
         }
+        $email->subject = $original_subject;
     }
 
 	function restore_options_from_request() {

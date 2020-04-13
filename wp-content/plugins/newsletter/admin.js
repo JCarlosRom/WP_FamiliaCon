@@ -44,3 +44,43 @@ function tnp_toggle_schedule() {
   jQuery("#tnp-schedule-button").toggle();
   jQuery("#tnp-schedule").toggle();
 }
+
+jQuery(document).ready(function () {
+  jQuery('.tnp-counter-animation').each(function () {
+    var _this = jQuery(this);
+
+    var val = null;
+    if (!isFloat(_this.text())) {
+      val = {
+        parsed: parseInt(_this.text()),
+        rounded: function (value) {
+          return Math.ceil(value);
+        }
+      };
+
+      if (_this.hasClass('percentage')) {
+        _this.css('min-width', '60px');
+      }
+    } else {
+      val = {
+        parsed: parseFloat(_this.text()),
+        rounded: function (value) {
+          return value.toFixed(1);
+        }
+      };
+    }
+
+    jQuery({counter: 0}).animate({counter: val.parsed}, {
+      duration: 1000,
+      easing: 'swing',
+      step: function () {
+        _this.text(val.rounded(this.counter));
+      }
+    });
+
+    function isFloat(value) {
+      return !isNaN(Number(value)) && Number(value).toString().indexOf('.') !== -1;
+    }
+
+  });
+});

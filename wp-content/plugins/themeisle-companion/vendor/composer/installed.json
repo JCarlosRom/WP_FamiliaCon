@@ -128,17 +128,17 @@
     },
     {
         "name": "codeinwp/gutenberg-blocks",
-        "version": "1.4.2",
-        "version_normalized": "1.4.2.0",
+        "version": "1.5.0",
+        "version_normalized": "1.5.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/Codeinwp/gutenberg-blocks.git",
-            "reference": "93c60a115aa5f49c01941f5ed6da0949dc55b430"
+            "reference": "e26d624bbe6946d070bdfa95383fa8e55dee5d0d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeinwp/gutenberg-blocks/zipball/93c60a115aa5f49c01941f5ed6da0949dc55b430",
-            "reference": "93c60a115aa5f49c01941f5ed6da0949dc55b430",
+            "url": "https://api.github.com/repos/Codeinwp/gutenberg-blocks/zipball/e26d624bbe6946d070bdfa95383fa8e55dee5d0d",
+            "reference": "e26d624bbe6946d070bdfa95383fa8e55dee5d0d",
             "shasum": ""
         },
         "require": {
@@ -151,7 +151,7 @@
             "squizlabs/php_codesniffer": "^3.3",
             "wp-coding-standards/wpcs": "^1"
         },
-        "time": "2020-03-20T08:38:39+00:00",
+        "time": "2020-03-30T21:49:53+00:00",
         "type": "library",
         "extra": {
             "installer-disable": "true"
@@ -257,17 +257,17 @@
     },
     {
         "name": "codeinwp/themeisle-sdk",
-        "version": "3.2.4",
-        "version_normalized": "3.2.4.0",
+        "version": "3.2.8",
+        "version_normalized": "3.2.8.0",
         "source": {
             "type": "git",
             "url": "https://github.com/Codeinwp/themeisle-sdk.git",
-            "reference": "9fb53a254d8eb7490ce51dd613bda765ec6138ce"
+            "reference": "ce152edef1634d7c3ce75ed292efcc7a5f73806e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/9fb53a254d8eb7490ce51dd613bda765ec6138ce",
-            "reference": "9fb53a254d8eb7490ce51dd613bda765ec6138ce",
+            "url": "https://api.github.com/repos/Codeinwp/themeisle-sdk/zipball/ce152edef1634d7c3ce75ed292efcc7a5f73806e",
+            "reference": "ce152edef1634d7c3ce75ed292efcc7a5f73806e",
             "shasum": ""
         },
         "require-dev": {
@@ -275,7 +275,7 @@
             "squizlabs/php_codesniffer": "^3.1",
             "wp-coding-standards/wpcs": "^1.0.0"
         },
-        "time": "2020-03-21T13:43:39+00:00",
+        "time": "2020-03-24T16:54:54+00:00",
         "type": "library",
         "installation-source": "dist",
         "notification-url": "https://packagist.org/downloads/",

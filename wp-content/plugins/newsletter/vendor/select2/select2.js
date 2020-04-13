@@ -946,7 +946,7 @@ the specific language governing permissions and limitations under the Apache Lic
                     console.warn(
                         'Select2: The `id` option has been removed in Select2 4.0.0, ' +
                         'consider renaming your `id` property or mapping the property before your data makes it to Select2. ' +
-                        'You can Leer más at https://select2.github.io/announcements-4.0.html#changed-id'
+                        'You can read more at https://select2.github.io/announcements-4.0.html#changed-id'
                     );
                 }
 
@@ -955,7 +955,7 @@ the specific language governing permissions and limitations under the Apache Lic
                     console.warn(
                         'Select2: The `text` option has been removed in Select2 4.0.0, ' +
                         'consider renaming your `text` property or mapping the property before your data makes it to Select2. ' +
-                        'You can Leer más at https://select2.github.io/announcements-4.0.html#changed-id'
+                        'You can read more at https://select2.github.io/announcements-4.0.html#changed-id'
                     );
                 }
 

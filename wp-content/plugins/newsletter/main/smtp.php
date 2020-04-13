@@ -31,7 +31,7 @@ if (!$controls->is_action()) {
 
         if (is_wp_error($r)) {
             $controls->errors = $r->get_error_message();
-            $controls->errors .= '<br><a href="https://www.thenewsletterplugin.com/documentation/?p=15170" target="_blank"><strong>' . __('Leer más', 'newsletter') . '</strong></a>.';
+            $controls->errors .= '<br><a href="https://www.thenewsletterplugin.com/documentation/?p=15170" target="_blank"><strong>' . __('Read more', 'newsletter') . '</strong></a>.';
 
         } else {
             $controls->messages = 'Success.';
@@ -114,7 +114,7 @@ if (empty($controls->data['enabled']) && !empty($controls->data['host'])) {
             <tr>
                 <th>Insecure SSL Connections</th>
                 <td>
-                    <?php $controls->yesno('ssl_insecure'); ?> <a href="https://www.thenewsletterplugin.com/?p=21989" target="_blank">Leer más</a>.
+                    <?php $controls->yesno('ssl_insecure'); ?> <a href="https://www.thenewsletterplugin.com/?p=21989" target="_blank">Read more</a>.
                 </td>
             </tr>
             <tr>
